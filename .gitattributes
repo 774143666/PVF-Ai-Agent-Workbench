@@ -1,0 +1,3 @@
+knowledge-pack/** text eol=lf
+*.exe binary
+*.node binary

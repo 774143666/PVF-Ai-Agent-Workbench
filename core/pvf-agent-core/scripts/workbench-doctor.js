@@ -471,6 +471,7 @@ async function runCheck() {
     const required = agentWorkspaceMode
       ? [
           "release/AGENT-WORKSPACE-MANIFEST.json",
+          ".gitattributes",
           "AGENTS.md",
           "README.md",
           "README.zh-CN.md",

@@ -9,6 +9,7 @@
   "portableCore": {
     "include": [
       ".gitignore",
+      ".gitattributes",
       "VERSION",
       "CHANGELOG.zh-CN.md",
       "AGENTS.md",

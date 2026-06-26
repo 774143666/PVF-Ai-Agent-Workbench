@@ -5,6 +5,7 @@
   "purpose": "Clean workspace with a single root command entry for desktop Agents to inspect and safely modify PVF through controlled output workflows.",
   "generatedAt": "2026-06-20",
   "includes": [
+    ".gitattributes",
     "AGENTS.md",
     "README.md",
     "README.zh-CN.md",

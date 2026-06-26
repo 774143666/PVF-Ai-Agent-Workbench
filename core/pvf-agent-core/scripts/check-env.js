@@ -163,6 +163,7 @@ function checkRequiredPaths(errors) {
 
     const requiredFiles = [
       "release/AGENT-WORKSPACE-MANIFEST.json",
+      ".gitattributes",
       "AGENTS.md",
       "README.md",
       "README.zh-CN.md",
@@ -450,6 +451,7 @@ function checkRequiredPaths(errors) {
 
 function checkAgentWorkspaceRootLayout(errors, info) {
   const allowedFiles = new Set([
+    ".gitattributes",
     ".gitignore",
     "AGENTS.md",
     "CHANGELOG.zh-CN.md",
