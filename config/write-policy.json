@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "1.0",
+  "phase": "phase-3-controlled-output-apply",
+  "mode": "controlled-output-only",
+  "mcpWriteToolsEnabled": false,
+  "controlledApplyEnabled": true,
+  "permissionModel": {
+    "readOnlyAdapter": "config/pvf-adapter.json is the Agent/MCP read lane and must not expose write tools.",
+    "controlledWriteRunner": "core/pvf-agent-core/cli/pvf-change-set.js is the only local write lane; it may call bridge write tools only inside apply, only with explicit output, backup, and readback.",
+    "agentMcpWriteToolsEnabled": false,
+    "sourceOverwriteAllowed": false,
+    "clientWriteAllowed": false
+  },
+  "controlledWriteRunner": {
+    "allowedBridgeTools": [
+      "pvf_open",
+      "pvf_read_file",
+      "pvf_resolve_lst_id",
+      "pvf_replace_text",
+      "pvf_backup",
+      "pvf_save",
+      "pvf_close"
+    ],
+    "sourceOverwriteAllowed": false,
+    "clientWriteAllowed": false,
+    "requiresDryRunFirst": true
+  },
+  "allowedOperations": [
+    "validate-change-set",
+    "dry-run-replace-text",
+    "apply-replace-text-to-explicit-output"
+  ],
+  "forbiddenOperations": [
+    "overwrite-source-pvf",
+    "client-resource-write",
+    "apply-without-backup",
+    "apply-without-explicit-output",
+    "apply-without-readback"
+  ],
+  "requiredBeforeApply": [
+    "explicit-user-authorization",
+    "target-pvf-confirmed",
+    "timestamped-backup",
+    "explicit-output-path",
+    "readback-after-save"
+  ],
+  "outputs": {
+    "dryRunRoot": "workspaces/dry-runs",
+    "applyRoot": "workspaces/apply-runs",
+    "dryRunManifestFileName": "DRY-RUN-MANIFEST.json",
+    "applyManifestFileName": "APPLY-MANIFEST.json",
+    "outputFileName": "Script.pvf"
+  }
+}

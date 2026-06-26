@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "1.0",
+  "fixtureId": "itemshop-birken",
+  "description": "Small backend smoke fixture shared by the current workspace PVFs.",
+  "encoding": {
+    "open": "Tw",
+    "read": "Cn"
+  },
+  "listProbe": {
+    "prefix": "itemshop",
+    "contains": "birken",
+    "limit": 20,
+    "offsetProbe": 2000
+  },
+  "registryPath": "itemshop/itemshop.lst",
+  "registryId": 37,
+  "expectedPvfPath": "itemshop/birken.shp",
+  "registryExpectedText": "37\t`birken.shp`",
+  "readPath": "itemshop/itemshop.lst",
+  "pathSearchContains": "birken",
+  "index": {
+    "scope": "itemshop",
+    "pathContains": "birken",
+    "pathPrefix": "itemshop",
+    "expectedPvfPath": "itemshop/birken.shp"
+  },
+  "writeSmoke": {
+    "changeSetFile": "../../../../workspaces/examples/change-set.replace-text.example.json",
+    "expectedChangedCount": 0
+  }
+}

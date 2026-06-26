@@ -1,0 +1,124 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.pvf-agent-workbench/schemas/pvf-index-manifest.schema.json",
+  "title": "Portable PVF Agent Workbench PVF index manifest",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "phase",
+    "generatedAt",
+    "mode",
+    "source",
+    "scope",
+    "artifacts",
+    "summary",
+    "safety"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": { "const": "1.0" },
+    "phase": { "const": "phase-4-readonly-session-index" },
+    "generatedAt": { "type": "string", "format": "date-time" },
+    "mode": { "const": "read-only-index" },
+    "source": {
+      "type": "object",
+      "required": ["sourcePvf", "sourceSize", "sourceMtimeMs", "sourceSha256Sample"],
+      "additionalProperties": false,
+      "properties": {
+        "profile": { "type": ["string", "null"] },
+        "profileSource": { "type": ["string", "null"] },
+        "sourcePvf": { "type": "string" },
+        "sourceSize": { "type": "integer", "minimum": 0 },
+        "sourceMtimeMs": { "type": "number", "minimum": 0 },
+        "sourceSha256Sample": { "type": "string" },
+        "pvfEncoding": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "open": { "type": "string" },
+            "readWrite": { "type": "string" }
+          }
+        }
+      }
+    },
+    "scope": {
+      "type": "object",
+      "required": ["prefix", "contains", "limit", "completePathIndex"],
+      "additionalProperties": false,
+      "properties": {
+        "scopeName": { "type": "string" },
+        "scopeKey": { "type": "string" },
+        "prefix": { "type": ["string", "null"] },
+        "contains": { "type": ["string", "null"] },
+        "limit": { "type": "integer", "minimum": 1 },
+        "includeLstIndex": { "type": "boolean" },
+        "completePathIndex": { "type": "boolean" }
+      }
+    },
+    "artifacts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "path", "bytes", "sha256"],
+        "additionalProperties": false,
+        "properties": {
+          "name": { "type": "string" },
+          "path": { "type": "string" },
+          "bytes": { "type": "integer", "minimum": 0 },
+          "sha256": { "type": "string" }
+        }
+      }
+    },
+    "summary": {
+      "type": "object",
+      "required": ["pathIndex", "registries", "lstIndex", "warnings"],
+      "additionalProperties": false,
+      "properties": {
+        "pathIndex": {
+          "type": "object",
+          "required": ["totalFileCount", "matchedCount", "returnedCount"],
+          "additionalProperties": true,
+          "properties": {
+            "totalFileCount": { "type": "integer", "minimum": 0 },
+            "matchedCount": { "type": "integer", "minimum": 0 },
+            "returnedCount": { "type": "integer", "minimum": 0 }
+          }
+        },
+        "registries": {
+          "type": "object",
+          "required": ["totalCount", "primaryCount", "secondaryCount"],
+          "additionalProperties": true,
+          "properties": {
+            "totalCount": { "type": "integer", "minimum": 0 },
+            "primaryCount": { "type": "integer", "minimum": 0 },
+            "secondaryCount": { "type": "integer", "minimum": 0 }
+          }
+        },
+        "lstIndex": {
+          "type": "object",
+          "required": ["registryCount", "entryCount", "parseWarningCount"],
+          "additionalProperties": true,
+          "properties": {
+            "registryCount": { "type": "integer", "minimum": 0 },
+            "entryCount": { "type": "integer", "minimum": 0 },
+            "parseWarningCount": { "type": "integer", "minimum": 0 }
+          }
+        },
+        "warnings": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "safety": {
+      "type": "object",
+      "required": ["readOnly", "sourceOverwritten", "clientResourceWrite"],
+      "additionalProperties": false,
+      "properties": {
+        "readOnly": { "const": true },
+        "sourceOverwritten": { "const": false },
+        "clientResourceWrite": { "const": false }
+      }
+    }
+  }
+}

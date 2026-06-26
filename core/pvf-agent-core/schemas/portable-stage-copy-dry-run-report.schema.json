@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "portable-stage-copy-dry-run-report.schema.json",
+  "type": "object",
+  "required": ["schemaVersion", "phase", "generatedAt", "dryRunOnly", "stageDir", "summary"],
+  "properties": {
+    "schemaVersion": { "const": "1.0" },
+    "phase": { "const": "release-gate-2-stage-copy-dry-run" },
+    "dryRunOnly": { "const": true },
+    "stageDir": { "type": "string" },
+    "summary": { "type": "object" }
+  },
+  "additionalProperties": true
+}

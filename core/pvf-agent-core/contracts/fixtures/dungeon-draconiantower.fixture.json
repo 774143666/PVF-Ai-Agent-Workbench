@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.0",
+  "fixtureId": "dungeon-draconiantower",
+  "description": "Read-only backend fixture for a dungeon .lst closure shared by the current workspace PVFs.",
+  "encoding": {
+    "open": "Tw",
+    "read": "Cn"
+  },
+  "listProbe": {
+    "prefix": "dungeon/act2",
+    "contains": "draconiantower",
+    "limit": 20,
+    "offsetProbe": 2000
+  },
+  "registryPath": "dungeon/dungeon.lst",
+  "registryId": 11,
+  "expectedPvfPath": "dungeon/Act2/DraconianTower.dgn",
+  "registryExpectedText": "11\t`Act2/DraconianTower.dgn`",
+  "readPath": "dungeon/dungeon.lst",
+  "pathSearchContains": "draconiantower.dgn",
+  "index": {
+    "scope": "full",
+    "pathContains": "draconiantower",
+    "pathPrefix": "dungeon/act2",
+    "expectedPvfPath": "dungeon/act2/draconiantower.dgn"
+  }
+}

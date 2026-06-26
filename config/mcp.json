@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "1.0",
+  "servers": {
+    "pvf-agent-core": {
+      "enabled": true,
+      "phase": "phase-4-readonly-session-index",
+      "transport": "stdio",
+      "command": "node",
+      "args": [
+        "core/pvf-agent-core/mcp/server.js"
+      ],
+      "capabilities": [
+        "pvf_open",
+        "pvf_list_files_page",
+        "pvf_search",
+        "pvf_read_file",
+        "pvf_resolve_lst_id",
+        "pvf_agent_open_profile",
+        "pvf_agent_list_files",
+        "pvf_agent_list_files_page",
+        "pvf_agent_search",
+        "pvf_agent_read_file",
+        "pvf_agent_resolve_lst",
+        "pvf_agent_cached_sessions",
+        "pvf_agent_index_catalog",
+        "pvf_agent_index_summary",
+        "pvf_agent_index_status",
+        "pvf_agent_index_path",
+        "pvf_agent_index_resolve_lst"
+      ],
+      "safety": {
+        "defaultMode": "read-only",
+        "writeRequiresExplicitAuthorization": true,
+        "clientWriteRequiresSeparateAuthorization": true
+      }
+    }
+  }
+}

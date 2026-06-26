@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.pvf-agent-workbench/schemas/knowledge-pack-manifest.schema.json",
+  "title": "Portable PVF Agent Workbench knowledge-pack manifest",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "phase",
+    "generatedAt",
+    "sourceVariables",
+    "entries",
+    "summary",
+    "externalSourcePolicy"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": {
+      "const": "1.0"
+    },
+    "phase": {
+      "const": "phase-1.5-knowledge-bootstrap"
+    },
+    "generatedAt": {
+      "type": "string"
+    },
+    "sourceVariables": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "dest",
+          "source",
+          "sourceGroup",
+          "evidenceLevel",
+          "bytes",
+          "sha256"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "dest": {
+            "type": "string"
+          },
+          "source": {
+            "type": "string"
+          },
+          "sourceGroup": {
+            "type": "string"
+          },
+          "evidenceLevel": {
+            "type": "string"
+          },
+          "bytes": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "pathReferenceCount": {
+            "type": "integer",
+            "minimum": 0
+          }
+        }
+      }
+    },
+    "summary": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "pathReferences": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": true
+      }
+    },
+    "externalSourcePolicy": {
+      "type": "object",
+      "additionalProperties": true
+    }
+  }
+}

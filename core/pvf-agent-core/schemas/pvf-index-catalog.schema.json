@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.pvf-agent-workbench/schemas/pvf-index-catalog.schema.json",
+  "title": "Portable PVF Agent Workbench PVF index catalog",
+  "type": "object",
+  "required": ["schemaVersion", "phase", "generatedAt", "profile", "entries"],
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": { "const": "1.0" },
+    "phase": { "const": "phase-4-readonly-session-index" },
+    "generatedAt": { "type": "string", "format": "date-time" },
+    "profile": { "type": ["string", "null"] },
+    "sourcePvf": { "type": ["string", "null"] },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["scopeKey", "scopeName", "indexDir", "manifestPath", "generatedAt", "scope", "summary", "safety"],
+        "additionalProperties": false,
+        "properties": {
+          "scopeKey": { "type": "string" },
+          "scopeName": { "type": "string" },
+          "indexDir": { "type": "string" },
+          "manifestPath": { "type": "string" },
+          "generatedAt": { "type": "string" },
+          "scope": { "type": "object", "additionalProperties": true },
+          "summary": { "type": "object", "additionalProperties": true },
+          "safety": { "type": "object", "additionalProperties": true }
+        }
+      }
+    }
+  }
+}

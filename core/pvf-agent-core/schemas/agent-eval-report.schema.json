@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "agent-eval-report.schema.json",
+  "type": "object",
+  "required": ["schemaVersion", "phase", "generatedAt", "summary", "cases"],
+  "properties": {
+    "schemaVersion": { "const": "1.0" },
+    "phase": { "const": "agent-eval" },
+    "summary": { "type": "object" },
+    "cases": { "type": "array" }
+  }
+}

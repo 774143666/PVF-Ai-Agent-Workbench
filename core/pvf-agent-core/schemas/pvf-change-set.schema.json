@@ -1,0 +1,165 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.pvf-agent-workbench/schemas/pvf-change-set.schema.json",
+  "title": "Portable PVF Agent Workbench dry-run change-set",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "mode",
+    "target",
+    "changes",
+    "safety"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": {
+      "const": "1.0"
+    },
+    "mode": {
+      "const": "dry-run-only"
+    },
+    "description": {
+      "type": "string"
+    },
+    "target": {
+      "type": "object",
+      "required": [
+        "sourcePvf"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "profile": {
+          "type": "string"
+        },
+        "sourcePvf": {
+          "type": "string",
+          "minLength": 1
+        },
+        "pvfOpenEncoding": {
+          "enum": [
+            "Tw",
+            "Cn",
+            "Kr",
+            "Jp",
+            "Utf8",
+            "Unicode"
+          ]
+        },
+        "pvfReadEncoding": {
+          "enum": [
+            "Tw",
+            "Cn",
+            "Kr",
+            "Jp",
+            "Utf8",
+            "Unicode"
+          ]
+        }
+      }
+    },
+    "changes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/change"
+      }
+    },
+    "safety": {
+      "type": "object",
+      "required": [
+        "writeModeEnabled",
+        "requiresBackupBeforeApply",
+        "requiresExplicitOutputPath",
+        "requiresReadback"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "writeModeEnabled": {
+          "const": false
+        },
+        "requiresBackupBeforeApply": {
+          "const": true
+        },
+        "requiresExplicitOutputPath": {
+          "const": true
+        },
+        "requiresReadback": {
+          "const": true
+        }
+      }
+    }
+  },
+  "$defs": {
+    "change": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "pvfPath",
+        "previousText",
+        "newText"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9._-]+$"
+        },
+        "type": {
+          "const": "replace-text"
+        },
+        "pvfPath": {
+          "type": "string",
+          "minLength": 1
+        },
+        "previousText": {
+          "type": "string",
+          "minLength": 1
+        },
+        "newText": {
+          "type": "string"
+        },
+        "replaceAll": {
+          "type": "boolean",
+          "default": false
+        },
+        "pvfEncoding": {
+          "enum": [
+            "Tw",
+            "Cn",
+            "Kr",
+            "Jp",
+            "Utf8",
+            "Unicode"
+          ]
+        },
+        "rationale": {
+          "type": "string"
+        },
+        "requiredResolvedIds": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "lstPath",
+              "id",
+              "expectedPvfPath"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "lstPath": {
+                "type": "string"
+              },
+              "id": {
+                "type": "integer"
+              },
+              "expectedPvfPath": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

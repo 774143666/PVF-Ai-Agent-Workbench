@@ -1,0 +1,192 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.pvf-agent-workbench/schemas/workspace-profiles.schema.json",
+  "title": "Portable PVF Agent Workbench workspace profiles",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "profiles"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "schemaVersion": {
+      "const": "1.0"
+    },
+    "activeProfile": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "profiles": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/profile"
+      }
+    }
+  },
+  "$defs": {
+    "pathString": {
+      "type": "string",
+      "minLength": 1
+    },
+    "profile": {
+      "type": "object",
+      "required": [
+        "name",
+        "enabled",
+        "workspace",
+        "sourcePvf",
+        "output",
+        "pvfEncoding",
+        "safety"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9._-]+$"
+        },
+        "enabled": {
+          "type": "boolean",
+          "default": false
+        },
+        "workspace": {
+          "$ref": "#/$defs/pathString"
+        },
+        "sourcePvf": {
+          "$ref": "#/$defs/pathString"
+        },
+        "materials": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/pathString"
+            },
+            {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/pathString"
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "client": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/pathString"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "output": {
+          "$ref": "#/$defs/pathString"
+        },
+        "pvfEncoding": {
+          "type": "object",
+          "required": [
+            "open",
+            "readWrite"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "open": {
+              "enum": [
+                "Tw",
+                "Cn",
+                "Kr",
+                "Jp",
+                "Utf8",
+                "Unicode"
+              ]
+            },
+            "readWrite": {
+              "enum": [
+                "Tw",
+                "Cn",
+                "Kr",
+                "Jp",
+                "Utf8",
+                "Unicode"
+              ]
+            }
+          }
+        },
+        "safety": {
+          "type": "object",
+          "required": [
+            "defaultMode",
+            "writeMode",
+            "clientWrite"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defaultMode": {
+              "const": "read-only"
+            },
+            "writeMode": {
+              "type": "object",
+              "required": [
+                "enabled",
+                "requiresTargetPvfConfirmation",
+                "requiresTimestampedBackup",
+                "requiresExplicitOutputPath",
+                "requiresReadback"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "enabled": {
+                  "type": "boolean",
+                  "default": false
+                },
+                "requiresTargetPvfConfirmation": {
+                  "const": true
+                },
+                "requiresTimestampedBackup": {
+                  "const": true
+                },
+                "requiresExplicitOutputPath": {
+                  "const": true
+                },
+                "requiresReadback": {
+                  "const": true
+                }
+              }
+            },
+            "clientWrite": {
+              "type": "object",
+              "required": [
+                "enabled",
+                "requiresSeparateAuthorization"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "enabled": {
+                  "type": "boolean",
+                  "default": false
+                },
+                "requiresSeparateAuthorization": {
+                  "const": true
+                }
+              }
+            }
+          }
+        },
+        "notes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

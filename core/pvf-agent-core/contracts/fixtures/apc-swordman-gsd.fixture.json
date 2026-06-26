@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.0",
+  "fixtureId": "apc-swordman-gsd",
+  "description": "Read-only backend fixture for an APC aicharacter .lst closure shared by the current workspace PVFs.",
+  "encoding": {
+    "open": "Tw",
+    "read": "Cn"
+  },
+  "listProbe": {
+    "prefix": "aicharacter/swordman/gsd",
+    "contains": "gsd.aic",
+    "limit": 20,
+    "offsetProbe": 2000
+  },
+  "registryPath": "aicharacter/aicharacter.lst",
+  "registryId": 201,
+  "expectedPvfPath": "aicharacter/swordman/gsd/gsd.aic",
+  "registryExpectedText": "201\t`swordman/gsd/gsd.aic`",
+  "readPath": "aicharacter/aicharacter.lst",
+  "pathSearchContains": "gsd.aic",
+  "index": {
+    "scope": "full",
+    "pathContains": "gsd.aic",
+    "pathPrefix": "aicharacter/swordman/gsd",
+    "expectedPvfPath": "aicharacter/swordman/gsd/gsd.aic"
+  }
+}

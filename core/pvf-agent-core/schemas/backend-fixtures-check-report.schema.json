@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.pvf-agent-workbench/schemas/backend-fixtures-check-report.schema.json",
+  "title": "Backend fixtures check report",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "phase",
+    "workbenchRoot",
+    "outRoot",
+    "reportPath",
+    "dryRunOnly",
+    "includeWriteSmoke",
+    "summary",
+    "runs",
+    "errors"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "1.0"
+    },
+    "phase": {
+      "const": "phase-4-backend-fixture-suite"
+    },
+    "dryRunOnly": {
+      "const": true
+    },
+    "includeWriteSmoke": {
+      "const": false
+    },
+    "summary": {
+      "type": "object",
+      "required": [
+        "ok",
+        "profileCount",
+        "fixtureCount",
+        "runCount",
+        "passed",
+        "failed",
+        "errorCount"
+      ],
+      "properties": {
+        "ok": {
+          "type": "boolean"
+        },
+        "profileCount": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "fixtureCount": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "runCount": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "passed": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "failed": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "errorCount": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": true
+    },
+    "profiles": {
+      "type": "array"
+    },
+    "fixtures": {
+      "type": "array"
+    },
+    "runs": {
+      "type": "array"
+    },
+    "errors": {
+      "type": "array"
+    }
+  },
+  "additionalProperties": true
+}

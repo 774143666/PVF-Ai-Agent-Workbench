@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "portable-cold-start-dry-run-report.schema.json",
+  "type": "object",
+  "required": ["schemaVersion", "phase", "generatedAt", "dryRunOnly", "stageDir", "safety", "summary", "checks"],
+  "properties": {
+    "schemaVersion": { "const": "1.0" },
+    "phase": { "const": "release-gate-3-cold-start-dry-run" },
+    "dryRunOnly": { "const": true },
+    "stageDir": { "type": ["string", "null"] },
+    "safety": { "type": "object" },
+    "summary": { "type": "object" },
+    "checks": { "type": "array" }
+  },
+  "additionalProperties": true
+}

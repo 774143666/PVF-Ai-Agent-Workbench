@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "pvf-agent-core": {
+      "command": "<WORKBENCH_ROOT>\\runtime\\node\\node.exe",
+      "args": [
+        "<WORKBENCH_ROOT>\\core\\pvf-agent-core\\mcp\\server.js"
+      ],
+      "cwd": "<WORKBENCH_ROOT>",
+      "env": {}
+    }
+  }
+}

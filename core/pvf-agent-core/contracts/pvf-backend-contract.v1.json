@@ -1,0 +1,77 @@
+{
+  "$schema": "../schemas/pvf-backend-contract.schema.json",
+  "schemaVersion": "1.0",
+  "contractId": "pvf-backend-contract.v1",
+  "phase": "phase-4-backend-contract",
+  "backendRole": "PVF storage and script access backend behind pvf-agent-core",
+  "requiredCapabilities": [
+    {
+      "id": "session.open-close",
+      "level": "required",
+      "summary": "Open a target PVF with explicit encoding and close the session without leaking write state.",
+      "requiredTools": ["pvf_open", "pvf_close", "pvf_session_info"]
+    },
+    {
+      "id": "path.list-page",
+      "level": "required",
+      "summary": "List PVF paths with prefix/contains filters, stable pagination, and total-match metadata.",
+      "requiredTools": ["pvf_list_files_page"]
+    },
+    {
+      "id": "path.search",
+      "level": "required",
+      "summary": "Find paths by filename or path fragment. This may be implemented through search or paged list fallback.",
+      "requiredTools": ["pvf_search", "pvf_list_files_page"]
+    },
+    {
+      "id": "text.read",
+      "level": "required",
+      "summary": "Read/decompile text and script-like PVF files with explicit read encoding.",
+      "requiredTools": ["pvf_read_file"]
+    },
+    {
+      "id": "registry.list",
+      "level": "required",
+      "summary": "List primary .lst registries and, when requested, parse entry counts.",
+      "requiredTools": ["pvf_list_registries"]
+    },
+    {
+      "id": "registry.resolve-lst",
+      "level": "required",
+      "summary": "Resolve numeric IDs through an explicit .lst registry and return the registered PVF path.",
+      "requiredTools": ["pvf_resolve_lst_id"]
+    },
+    {
+      "id": "index.path-lst",
+      "level": "required",
+      "summary": "Build or consume local path and .lst indexes with source freshness checks.",
+      "artifacts": [
+        "INDEX-MANIFEST.json",
+        "paths.jsonl",
+        "registries.json",
+        "lst-index.jsonl"
+      ]
+    },
+    {
+      "id": "write.controlled-output",
+      "level": "required-before-production-write",
+      "summary": "Apply a change set only with timestamped backup, explicit output PVF, and readback verification.",
+      "requiredTools": ["pvf_backup", "pvf_replace_text", "pvf_save"],
+      "mustNot": [
+        "overwrite-source-pvf",
+        "write-client-resources",
+        "apply-without-readback",
+        "apply-through-default-agent-mcp-write-tool"
+      ]
+    }
+  ],
+  "safetyInvariants": [
+    "Default adapter mode is read-only.",
+    "Agent-facing MCP must not expose write tools by default.",
+    "A write smoke test must write to an explicit output path and must not modify the source PVF.",
+    "Every numeric ID used by a test must be resolved through the exact .lst registry named by the fixture.",
+    "Local indexes are acceleration artifacts only; stale indexes cannot replace target PVF readback."
+  ],
+  "defaultFixture": "fixtures/itemshop-birken.fixture.json",
+  "reportSchema": "../schemas/pvf-backend-contract-report.schema.json"
+}

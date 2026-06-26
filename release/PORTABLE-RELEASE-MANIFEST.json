@@ -1,0 +1,99 @@
+{
+  "$schema": "../core/pvf-agent-core/schemas/portable-release-manifest.schema.json",
+  "schemaVersion": "1.0",
+  "phase": "agent-workspace-portable-release",
+  "packageName": "PVF-Agent-Workbench",
+  "packageVersion": "1.0.0",
+  "generatedAt": "2026-06-20",
+  "purpose": "Portable PVF Agent workspace with a bundled Agent Skill adapter, Node.js, read-only PVF tools, controlled output, clean knowledge routing, release gates, and deterministic Agent evaluations.",
+  "portableCore": {
+    "include": [
+      ".gitignore",
+      "VERSION",
+      "CHANGELOG.zh-CN.md",
+      "AGENTS.md",
+      ".agents/",
+      "README.zh-CN.md",
+      "workbench.bat",
+      "agents/",
+      "commands/",
+      "config/",
+      "core/",
+      "docs/",
+      "evals/",
+      "knowledge-pack/",
+      "release/",
+      "runtime/node/node.exe",
+      "tools/",
+      "workspaces/README.zh-CN.md",
+      "workspaces/absorption-checklists/README.zh-CN.md",
+      "workspaces/agent-eval-runs/README.zh-CN.md",
+      "workspaces/doctor-runs/README.zh-CN.md",
+      "workspaces/examples/",
+      "workspaces/indexes/README.zh-CN.md",
+      "workspaces/package-dry-runs/README.zh-CN.md",
+      "workspaces/planner-runs/README.zh-CN.md",
+      "workspaces/release-runs/README.zh-CN.md"
+    ]
+  },
+  "exclude": {
+    "localPrivate": [
+      "config/providers.local.json",
+      "config/workspace-profiles.local.json",
+      "config/*.secret.json"
+    ],
+    "generatedOutputs": [
+      "workspaces/dry-runs/",
+      "workspaces/apply-runs/",
+      "workspaces/backend-contract-runs/",
+      "workspaces/backend-fixture-runs/",
+      "workspaces/first-run-reports/",
+      "workspaces/real-task-runs/",
+      "workspaces/real-task-checks/",
+      "workspaces/absorption-checklists/",
+      "workspaces/agent-eval-runs/",
+      "workspaces/agent-workspace-stages/",
+      "workspaces/runtime-overlay-dry-runs/",
+      "workspaces/runtime-overlay-stages/",
+      "workspaces/stage-copy-dry-runs/",
+      "workspaces/cold-start-dry-runs/",
+      "workspaces/doctor-runs/",
+      "workspaces/planner-runs/",
+      "workspaces/package-dry-runs/",
+      "workspaces/release-runs/",
+      "workspaces/indexes/"
+    ],
+    "mountedUserData": [
+      "real PVF paths",
+      "client paths",
+      "raw materials",
+      "machine-specific profiles"
+    ],
+    "heavyArtifacts": [
+      "*.pvf",
+      "*.bak",
+      "*.npk",
+      "*.img",
+      "*.zip",
+      "*.7z",
+      "*.rar"
+    ]
+  },
+  "validation": {
+    "environment": "workbench.bat check",
+    "knowledgePack": "workbench.bat knowledge-check",
+    "agentEval": "workbench.bat eval self-test",
+    "agentSkill": "workbench.bat skill self-test",
+    "doctor": "workbench.bat doctor check --skip-profiles",
+    "gate1": "workbench.bat release gate1",
+    "gate2": "workbench.bat release gate2",
+    "gate3": "workbench.bat release gate3"
+  },
+  "safety": {
+    "defaultMode": "read-only",
+    "sourcePvfOverwriteAllowed": false,
+    "clientResourceWriteAllowedByDefault": false,
+    "realPvfRequiredForReleaseGates": false,
+    "writeRequiresExplicitOutputBackupReadbackManifest": true
+  }
+}

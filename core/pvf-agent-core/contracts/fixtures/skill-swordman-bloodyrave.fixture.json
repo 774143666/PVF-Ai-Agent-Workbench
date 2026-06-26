@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.0",
+  "fixtureId": "skill-swordman-bloodyrave",
+  "description": "Read-only backend fixture for a Swordman skill .lst closure shared by the current workspace PVFs.",
+  "encoding": {
+    "open": "Tw",
+    "read": "Cn"
+  },
+  "listProbe": {
+    "prefix": "skill/swordman",
+    "contains": "bloodyrave",
+    "limit": 20,
+    "offsetProbe": 2000
+  },
+  "registryPath": "skill/swordmanskill.lst",
+  "registryId": 79,
+  "expectedPvfPath": "skill/Swordman/BloodyRave.skl",
+  "registryExpectedText": "79\t`Swordman/BloodyRave.skl`",
+  "readPath": "skill/swordmanskill.lst",
+  "pathSearchContains": "bloodyrave.skl",
+  "index": {
+    "scope": "full",
+    "pathContains": "bloodyrave",
+    "pathPrefix": "skill/swordman",
+    "expectedPvfPath": "skill/swordman/bloodyrave.skl"
+  }
+}

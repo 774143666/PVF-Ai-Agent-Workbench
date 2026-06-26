@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "1.0",
+  "phase": "phase-4-readonly-session-index",
+  "mode": "read-only",
+  "upstream": {
+    "kind": "mcp-stdio",
+    "command": "${WORKBENCH_ROOT}/runtime/node/node.exe",
+    "args": [
+      "${WORKBENCH_ROOT}/tools/pvf-bridge/server.js"
+    ],
+    "cwd": "${WORKBENCH_ROOT}",
+    "serverPathEnv": "PVF_AGENT_BRIDGE_SERVER"
+  },
+  "allowedTools": [
+    "pvf_open",
+    "pvf_session_info",
+    "pvf_close",
+    "pvf_list_files",
+    "pvf_list_files_page",
+    "pvf_search",
+    "pvf_list_registries",
+    "pvf_resolve_lst_id",
+    "pvf_resolve_id",
+    "pvf_read_file"
+  ],
+  "forbiddenTools": [
+    "pvf_backup",
+    "pvf_replace_text",
+    "pvf_write_file",
+    "pvf_save"
+  ],
+  "defaults": {
+    "pvfOpenEncoding": "Tw",
+    "pvfReadEncoding": "Cn",
+    "fileNameSearchFallback": "pvf_list_files_contains",
+    "maxReadChars": 30000,
+    "searchLimit": 50,
+    "listLimit": 200,
+    "indexLimit": 1000000
+  },
+  "sessionCache": {
+    "enabled": true,
+    "maxSessions": 4,
+    "profileToolsEnabled": true
+  },
+  "safety": {
+    "writeToolsEnabled": false,
+    "clientWriteEnabled": false,
+    "oneShotCliClosesSession": true,
+    "sourceOverwriteAllowed": false
+  }
+}

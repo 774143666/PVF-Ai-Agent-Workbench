@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "workbench-doctor-report.schema.json",
+  "title": "Portable PVF Agent Workbench Doctor Report",
+  "type": "object",
+  "required": ["schemaVersion", "phase", "generatedAt", "summary", "checks"],
+  "properties": {
+    "schemaVersion": { "const": "1.0" },
+    "phase": { "type": "string" },
+    "generatedAt": { "type": "string" },
+    "workbenchRoot": { "type": "string" },
+    "reportPath": { "type": "string" },
+    "scope": { "type": "string" },
+    "includeWriteSmoke": { "type": "boolean" },
+    "summary": {
+      "type": "object",
+      "required": ["ok", "passed", "failed", "warnings"],
+      "properties": {
+        "ok": { "type": "boolean" },
+        "passed": { "type": "integer", "minimum": 0 },
+        "failed": { "type": "integer", "minimum": 0 },
+        "warnings": { "type": "integer", "minimum": 0 }
+      },
+      "additionalProperties": true
+    },
+    "checks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "ok"],
+        "properties": {
+          "id": { "type": "string" },
+          "ok": { "type": "boolean" },
+          "warning": { "type": "boolean" },
+          "details": {},
+          "error": { "type": "string" }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}
