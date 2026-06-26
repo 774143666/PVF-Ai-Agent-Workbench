@@ -50,7 +50,7 @@ workbench.bat skill install --client codex
 
 ## 常用命令
 
-根目录固定只保留 6 个文件：`.gitignore`、`AGENTS.md`、`README.zh-CN.md`、`CHANGELOG.zh-CN.md`、`VERSION` 和 `workbench.bat`。`workbench.bat check` 会阻止新的实现文件重新堆回根目录。
+根目录只保留少量入口、说明、许可证和 Git 元数据文件。`workbench.bat check` 会阻止新的实现文件重新堆回根目录。
 
 ```bat
 workbench.bat help

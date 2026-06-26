@@ -1,69 +1,137 @@
-# PVF Ai Agent 简易使用教程
+# PVF AI Agent Workbench
 
-### 第一步：获取并安装任意一款 Ai Agent 工作台
+一个面向 DNF / DFO PVF 修改场景的 AI Agent 工作台。
 
-市面上有很多 Ai Agent 工具，以下只是主流推荐的几款：
+它不是 PVF 编辑器本体，也不自带任何真实 PVF、客户端、NPK 或 IMG 资源。它提供的是一套给 Codex、Claude Code、OpenCode、Trae 等 AI Agent 使用的干净工作区、知识包、安全规则、只读检查工具和受控写入流程。
 
-| 软件名 | 说明  | 官网  |
-| --- | --- | --- |
-| WorkBuddy | 腾讯出品，签到送小额的 Ai 使用额度，能力平庸 | https://copilot.tencent.com/work/#download-section |
-| Trae | 字节跳动出品，免费排队使用主流 Ai ，能力标准 | https://www.trae.cn/ |
-| OpenCode | 纯开源工具，推荐自费购买 Ai API 接入，能力优秀 | https://opencode.ai/zh/download |
-| Codex | 需要翻墙能力，需购买价格昂贵的官方会员，能力优秀 | https://openai.com/zh-Hans-CN/codex/ |
-| Claude Code | 需要翻墙能力，需购买价格昂贵的官方会员，能力惊人 | https://claude.com/product/claude-code |
+如果你遇到“不会改 PVF”“字段不知道什么意思”“新增任务或物品会崩溃”“技能参数不知道该改哪个文件”这类问题，可以把 AI Agent 的工作区指向本目录，让 Agent 先按这里的规则做只读分析，再决定是否进入 dry-run 或受控输出。
 
-### 第二步：接入便宜好用的国产模型 API （以Deepseek+OpenCode为例）
+## 下载
 
-1. 打开并登陆Deepseek开发平台：[DeepSeek](https://platform.deepseek.com/usage)
-  
-2. 打开“用量信息”页面
-  
-3. 点击“去充值”，一般10元即可使用很久
-  
-4. 随后打开“API keys”页面
-  
-5. 点击“创建 API key” （名称可随意填写） 随后复制此 API key
-  
-6. 打开安装好的Opencode
-  
-7. 打开设置页面，就是位于软件左下角的小齿轮（或使用快捷键 Ctrl + , ）
-  
-8. 在设置页面内，打开“提供商”页面，点击下方的“查看更多提供商”
-  
-9. 点击DeepSeek后面的连接，然后将之前创建的 API key 粘贴进去，确定
-  
+建议直接下载正式版：
 
-### 第三步：为 Ai Agent 指定工作区（以OpenCode为例）
+[v1.0.0 Release](https://github.com/774143666/PVF-Ai-Agent-Workbench/releases/tag/v1.0.0)
 
-1. 点击软件左侧边栏的加号打开项目（或使用快捷键 Ctrl + O ）
-  
-2. 选择你解压好的“PVF-Agent-Workbench”文件夹所在位置
-  
-3. 在对话框下方选择模型及其思考强度（推荐Deepseek + Max）
-  
-4. 开始对话使用
-  
+下载页面里的 Source code zip 即可使用。解压后，用你正在使用的 AI Agent 工具打开 `PVF-Agent-Workbench` 文件夹。
 
-**小技巧：修改前可准备一份内容量大且BUG很少的 PVF 作为辅助参照（例如幻境/神迹等）Ai会将成功经验平移，可显著降低错误。
+## 适合做什么
 
-### 补充：进阶方案与模型推荐
+- 查询 PVF 字段、标签、路径和注册表含义。
+- 分析 NPC 商店、道具、装备、礼包、宠物、宝珠、卡片、APC、副本、任务、掉落、技能参数等修改范围。
+- 在修改前做只读检查、索引、依赖闭合和风险提示。
+- 让 Agent 按固定流程生成 dry-run 或受控输出 PVF。
+- 给不熟悉 PVF 结构的人提供一套可复用的排查路线。
 
-虽然理论上 Claude Code 这类更强大的工具都需要订阅官方会员，但也可以使用技术手段修改，这里的视频教程仅作推荐：
+## 不适合做什么
 
-[ClaudeCode桌面版 = 中文汉化 + 免登录 + 接入DeekSeek + 安装自己的Skill](https://www.bilibili.com/video/BV1RdLm6PEFF/)
+- 不会自动保证任何 PVF 修改实机可用。
+- 不会默认覆盖源 PVF。
+- 不会默认修改客户端资源。
+- 不包含真实游戏客户端、PVF、NPK、IMG、私有配置或运行报告。
+- 不替代实机测试；复杂改动仍需要进游戏验证。
 
-[全网最全！60分钟全面掌握Claude Code～【附完整文档】](https://www.bilibili.com/video/BV1NvRyBzEhq/)
+## 快速开始
 
-如果你明显感觉 Deepseek 无法满足诉求，那么可以考虑以下模型：
+1. 安装并打开一个支持文件夹工作区的 AI Agent 工具，例如 Codex、Claude Code、OpenCode 或 Trae。
+2. 让该工具打开解压后的 `PVF-Agent-Workbench` 文件夹。
+3. 新建对话，把下面这段发给 Agent：
 
-Minimax M3：价格和 Deepseek 接近但能力略微逊色，拥有多模态（看图）能力，你能直接发送图片进行交流。
+```text
+请先只读 AGENTS.md、knowledge-pack/README.zh-CN.md、knowledge-pack/safety/README.zh-CN.md 和 knowledge-pack/indexes/knowledge-index.json。
+读完后告诉我：
+1. 这个工作台是做什么的
+2. 你需要我提供哪些信息才能开始 PVF 修改
+3. 本次任务应该先只读、dry-run，还是可以准备输出 PVF
+```
 
-Mimo v2.5：小米大模型，能力和价格都接近 Deepseek，拥有多模态能力。不推荐没有多模态的 Mimo v2.5 Pro。
+通常你还需要告诉 Agent：
 
-Kimi K2.6：能力明显强于以上模型，拥有多模态能力，但上下文较短，无法进行长期多轮对话。
+- 目标 `Script.pvf` 的路径
+- 你想修改什么，例如任务、商店、技能、装备、掉落、宠物、礼包或副本
+- 是否允许生成新的输出 PVF
+- 是否有可用于对照的参考 PVF
+- 是否会进行实机测试
 
-GLM 5.2：国产模型的能力巅峰，超越 GPT5.4 的存在。但没有多模态能力，且因过于火爆和国外不可抗力制约，速度明显偏慢。
+## 新手建议
 
-Claude Opus 4.6：几乎毫无短板的模型，价格达国产模型 20~50 倍（GPT同价）通常作为总设计师、总策划的角色偶尔使用。
+第一次使用时，建议从只读查询开始，不要直接要求写 PVF。
 
-ChatGPT 5.5：工业生产级模型，能够非常严谨的执行极其复杂的任务。但是不擅长编撰剧情故事/任务描述等中文文本任务。
+相对适合作为第一步的任务：
+
+- 查某个 NPC 商店卖什么
+- 查某个物品或装备的字段
+- 查某个技能参数在哪些 `.skl` / TP / Ex 文件里
+- 查任务、掉落、门票、奖励链路
+
+不建议一开始就做：
+
+- 大型副本导入
+- 客户端贴图、NPK、IMG 资源补丁
+- NUT / SQR 运行逻辑修改
+- 覆盖源 PVF
+
+## 常用命令
+
+普通用户通常只需要根目录的 `workbench.bat`：
+
+```bat
+workbench.bat help
+workbench.bat check
+workbench.bat knowledge-check
+workbench.bat release gate3
+```
+
+如果你已经有目标 PVF，可以让 Agent 帮你调用只读命令，例如：
+
+```bat
+workbench.bat pvf-read list-files --pvf "D:\MyDNFWork\Script.pvf" --prefix itemshop --limit 5
+workbench.bat pvf-read read --pvf "D:\MyDNFWork\Script.pvf" --path itemshop/itemshop.lst --max-chars 1200
+```
+
+更多命令和工作台内部结构见：
+
+- [README.zh-CN.md](README.zh-CN.md)
+- [AGENTS.md](AGENTS.md)
+- [docs/CLEAN-COPY.zh-CN.md](docs/CLEAN-COPY.zh-CN.md)
+
+## 安全边界
+
+这个工作台默认把 PVF 修改当成高风险操作处理：
+
+- 先只读，再 dry-run，最后才考虑受控输出。
+- 写 PVF 前必须确认目标 PVF、路径、ID、注册表和依赖范围。
+- 写出 PVF 必须走显式 output、备份、readback 和 manifest。
+- 文本替换必须使用目标 PVF 原始 raw / no-simplified 文本，不要写入简体化显示文本或 `&#数字;` HTML 实体。
+- 任务、掉落、技能、客户端资源等结论必须回到目标 PVF 验证，不能只靠教程或别人的样本。
+
+## 知识包
+
+`knowledge-pack/` 是这个仓库最重要的部分之一。它只保留字段、路径、列义、单位、换算线索、路由和安全边界，不保存原始大文本、聊天记录、实验报告、本地证据路径、真实 PVF 或客户端资源。
+
+知识包默认采用 CC0：
+
+[LICENSE-KNOWLEDGE-CC0.md](LICENSE-KNOWLEDGE-CC0.md)
+
+也就是说，你可以复制、吸收、改写、重新分发其中内容，不需要提前询问，也不强制署名。
+
+## 提问
+
+如果你不知道某个 PVF 问题该怎么查，可以在 Issues 里描述：
+
+- 你想改什么
+- 已知 ID、路径或 NPC / 物品 / 技能名
+- 当前现象，例如崩溃、无效、重复加载、资源红叉
+- 你已经尝试过什么
+
+不要上传真实 PVF、客户端文件、账号信息、API key 或私有路径截图。
+
+Issues:
+
+https://github.com/774143666/PVF-Ai-Agent-Workbench/issues
+
+## 许可证
+
+- 代码和工具脚本：MIT License，见 [LICENSE](LICENSE)
+- `knowledge-pack/`：CC0 1.0，见 [LICENSE-KNOWLEDGE-CC0.md](LICENSE-KNOWLEDGE-CC0.md)
+
+第三方运行时、工具和二进制文件仍遵循各自上游许可证。
