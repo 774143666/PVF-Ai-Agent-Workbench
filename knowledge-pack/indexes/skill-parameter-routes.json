@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "1.0",
+  "status": "需验证",
+  "purpose": "Compact route metadata for portable path-keyed skill static/level parameter lookup. This file does not embed raw source text or synthetic record ids.",
+  "boundary": {
+    "defaultStatus": "需验证",
+    "rawTextCopied": false,
+    "fullSkillBlocksCopied": false,
+    "portableStructuredFactsEmbedded": true,
+    "primaryKey": "skillPath",
+    "syntheticRecordIds": false,
+    "pvfWriteAuthorized": false,
+    "requiresTargetSklReadback": true
+  },
+  "internalIndexes": [
+    {
+      "id": "skill-parameter-facts-compact",
+      "kind": "portable-structured-facts",
+      "knowledgePackPath": "indexes/skill-parameter-facts.compact.json",
+      "note": "Structured facts are self-contained in the knowledge pack; skill path is the primary key and no workspace derived index is required for lookup."
+    }
+  ],
+  "summary": {
+    "parsedSkillCount": 2204,
+    "jobDirCount": 14,
+    "staticDataSkillCount": 1608,
+    "dynamicDataSkillCount": 2157,
+    "parseAnomalyCount": 0
+  },
+  "lookupKeys": [
+    "skillName",
+    "jobDir",
+    "skillPath",
+    "staticData.columnIndex",
+    "levelInfo.columnIndex",
+    "levelProperty.staticRef",
+    "levelProperty.dynamicRef"
+  ],
+  "readOrder": [
+    "task-cards/skill-parameter-current-value-readonly-query.zh-CN.md",
+    "indexes/skill-parameter-index.zh-CN.md",
+    "indexes/skill-parameter-facts.compact.json",
+    "dictionaries/skill-static-level-parameter-columns.zh-CN.md",
+    "task-cards/skill-state-nut-runtime-readonly-audit.zh-CN.md"
+  ],
+  "doNotUseFor": [
+    "runtime validation",
+    "direct PVF write recipe",
+    "cross-version universal skill rules",
+    "client or animation resource validation"
+  ]
+}

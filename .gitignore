@@ -1,0 +1,46 @@
+# Local secrets and machine-specific profiles.
+.claude/settings.local.json
+config/providers.local.json
+config/workspace-profiles.local.json
+config/*.secret.json
+
+# Replaceable local runtime payloads.
+runtime/opencode/*
+!runtime/opencode/README-REPLACE-RUNTIME.zh-CN.md
+runtime/node/*
+!runtime/node/node.exe
+
+# Generated workspace outputs.
+workspaces/dry-runs/
+workspaces/apply-runs/
+workspaces/backend-contract-runs/
+workspaces/backend-fixture-runs/
+workspaces/first-run-reports/
+workspaces/real-task-runs/
+workspaces/real-task-checks/
+workspaces/absorption-checklists/*
+!workspaces/absorption-checklists/README.zh-CN.md
+workspaces/agent-workspace-stages/
+workspaces/runtime-overlay-dry-runs/
+workspaces/runtime-overlay-stages/
+workspaces/stage-copy-dry-runs/
+workspaces/cold-start-dry-runs/
+workspaces/doctor-runs/*
+!workspaces/doctor-runs/README.zh-CN.md
+workspaces/planner-runs/*
+!workspaces/planner-runs/README.zh-CN.md
+workspaces/package-dry-runs/*
+!workspaces/package-dry-runs/README.zh-CN.md
+workspaces/agent-eval-runs/*
+!workspaces/agent-eval-runs/README.zh-CN.md
+workspaces/release-runs/*
+!workspaces/release-runs/README.zh-CN.md
+workspaces/indexes/*
+!workspaces/indexes/README.zh-CN.md
+
+# Heavy PVF/client artifacts must be mounted by profile, not committed into the workbench.
+*.pvf
+*.bak
+*.npk
+*.img
+*.lst.bak

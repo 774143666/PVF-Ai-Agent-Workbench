@@ -1,0 +1,4 @@
+interface:
+  display_name: "DNF PVF X-Pilot"
+  short_description: "Route safe PVF inspection and controlled Workbench changes"
+  default_prompt: "Use $dnf-pvf-xpilot to inspect or change a DNF PVF through the portable Workbench safety workflow."

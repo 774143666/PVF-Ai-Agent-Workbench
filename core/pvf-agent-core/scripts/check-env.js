@@ -164,6 +164,7 @@ function checkRequiredPaths(errors) {
     const requiredFiles = [
       "release/AGENT-WORKSPACE-MANIFEST.json",
       "AGENTS.md",
+      "README.md",
       "README.zh-CN.md",
       "docs/CLEAN-COPY.zh-CN.md",
       "VERSION",
@@ -452,6 +453,7 @@ function checkAgentWorkspaceRootLayout(errors, info) {
     ".gitignore",
     "AGENTS.md",
     "CHANGELOG.zh-CN.md",
+    "README.md",
     "README.zh-CN.md",
     "VERSION",
     "workbench.bat",
@@ -465,7 +467,7 @@ function checkAgentWorkspaceRootLayout(errors, info) {
   if (unexpected.length > 0) {
     errors.push(`Unexpected Workbench root file(s): ${unexpected.join(", ")}. Move implementation files into commands/, docs/, release/, core/, or another owned directory.`);
   }
-  info.push(`Root layout: ${rootFiles.length}/6 allowed files`);
+  info.push(`Root layout: ${rootFiles.length}/${allowedFiles.size} allowed files`);
 }
 
 function checkAgentWorkspaceRuntimePurity(errors, info) {

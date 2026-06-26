@@ -472,6 +472,7 @@ async function runCheck() {
       ? [
           "release/AGENT-WORKSPACE-MANIFEST.json",
           "AGENTS.md",
+          "README.md",
           "README.zh-CN.md",
           "docs/CLEAN-COPY.zh-CN.md",
           "VERSION",

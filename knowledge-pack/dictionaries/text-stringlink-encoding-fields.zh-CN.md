@@ -1,0 +1,74 @@
+# Text / StringLink / Encoding 字段字典
+
+状态：默认可用
+
+用途：解释 PVF 文本字段、StringLink 样 token、字符串资源、本地化和编码风险的口径。本文不授权写 PVF。
+
+## 核心术语
+
+| 术语 | 静态含义 | 主目标观察 | 边界 |
+| --- | --- | --- | --- |
+| StringLink 样 token | `<namespace::key\`文本\`>` 或相近形态 | 27719 个 | 只证明脚本文本中有链接样结构 |
+| namespace | StringLink 中 `::` 前的数字 | 观察到 `13`、`9`、`3`、`17`、`6` 等高频值 | 只能作为分布提示，不是全局 registry |
+| key / head | StringLink 中 `::` 后、反引号前的键 | 唯一 key 18904 个 | 不等同于物品 ID、怪物 ID 或任务 ID |
+| 内嵌文本 | StringLink 反引号中的可见文本 | 19405 个含 CJK/非 ASCII | 不证明 UI 一定显示该文本 |
+| 直接文本 | 普通反引号 token 中的文本样内容 | 大量存在 | 可能是说明、枚举、脚本条件、路径或逻辑字符串，需看父标签 |
+| 名称表 | `itemname.lst`、`monstername.lst` 等 | 字符串资源候选 | 不是文件路径 registry |
+| `.str` 文件 | 多目录本地化字符串资源候选 | 主目标有多类 `.kor.str`、`.jpn.str`、`.chn.str` | 不证明运行时加载顺序 |
+| `n_string.lst` | 字符串资源候选入口 | 主目标存在 | 不等同于所有文本来源 |
+| `stringtable.bin` | 二进制字符串表候选 | 主目标存在 | 当前未证明写入流程 |
+| replacement char | Unicode replacement character 字形 | 文件级命中 270 个 | 编码/反编译风险桶，不能静态硬修 |
+
+## 高频文本字段
+
+| 字段或标签 | 静态含义 | 边界 |
+| --- | --- | --- |
+| `[name]` | 名称字段，常见 StringLink 或直接文本 | 文本存在不证明 UI 显示正常 |
+| `[name2]` | 第二名称或附加名称字段 | 需看文件类型上下文 |
+| `[map name]` | 地图名称字段 | 不证明副本入口可见 |
+| `[explain]` | 说明文本 | 不证明效果、数值或运行逻辑 |
+| `[basic explain]` | 基础说明文本 | 只当说明文本 |
+| `[flavor text]` | 描述/风味文本 | 不证明道具功能 |
+| `[minimum info]` | APC / AI 角色等最小信息 | 可能含名称文本 |
+| `[ui controls]` | UI 控件文本或控制字段 | 不证明客户端 UI 正常 |
+| `[name_text]` | PVP Mission 名称文本引用 | 不证明任务 UI 可见 |
+| `[cond_text]` | PVP Mission 条件文本引用 | 不替代条件列解释 |
+| `[condition message]` / `[solve message]` / `[depend message]` | 任务条件、完成、依赖文本 | 不证明任务条件实机生效 |
+| `[string data]` | 字符串列表或字符串参数块 | 可能是脚本、资源、音频或文本，必须看父文件 |
+
+## 解析规则
+
+| 场景 | 正确动作 | 禁止动作 |
+| --- | --- | --- |
+| 看到 StringLink | 记录 namespace、key、父标签、所在文件类型 | 直接猜物品/任务/怪物 ID |
+| 看到中文文本 | 先判断是说明、名称、脚本字符串还是资源路径 | 直接写成 UI 显示成功 |
+| 看到 `.str` | 作为字符串资源候选 | 直接改 `.str` 并认为生效 |
+| 看到 `stringtable.bin` | 作为二进制字符串表候选 | 当前不做写入或二进制重打包 |
+| 看到 replacement char | 进入编码风险桶 | 不直接替换或猜原文 |
+
+## 静态与动态边界
+
+静态只读可以确认：
+
+- 文本字段是否存在。
+- StringLink 样 token 的分布。
+- 字符串资源候选文件是否存在。
+- Tw 解码下的可见 CJK、ASCII、replacement char 形态。
+
+静态只读不能确认：
+
+- 中文写入是否安全。
+- UI 是否显示、换行、缩放或不溢出。
+- 客户端字体是否覆盖。
+- `stringtable.bin` 或 `.str` 的实际加载优先级。
+- 服务端是否放行。
+
+## 已验证写入边界
+
+当前主目标样本已经证明：在含中文字符串的 stackable 文件中，只改数字字段时，使用 `pvfEncoding=Cn`、不做简繁转换、不自动转换 StringLink，可避免已知的客户端中文 UI 乱码问题。
+
+边界：
+
+- 这只覆盖数字字段最小替换，不覆盖直接修改中文字符串本身。
+- PVF 读回正常不等于客户端 UI 文本安全。
+- 任何触达中文字符串或 StringLink 样 token 的输出，部署后都要检查相关 NPC、道具名、道具描述、副本入口或副本文本。

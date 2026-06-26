@@ -6,6 +6,7 @@
   "generatedAt": "2026-06-20",
   "includes": [
     "AGENTS.md",
+    "README.md",
     "README.zh-CN.md",
     "VERSION",
     "CHANGELOG.zh-CN.md",

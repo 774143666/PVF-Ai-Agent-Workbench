@@ -1,0 +1,2475 @@
+{
+  "schemaVersion": "1.0",
+  "phase": "phase-2-clean-encyclopedia-bootstrap",
+  "generatedAt": "2026-06-19T14:10:00.000Z",
+  "entries": [
+    {
+      "dest": "dictionaries/actionobject-mapobject-breakable-spc-fields.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/dictionaries/actionobject-mapobject-breakable-spc-fields.zh-CN.md",
+      "sourceGroup": "clean-dictionaries",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 6381,
+      "sha256": "d8e26c6112d7e9ceebb717c75c6ef72a6b2bc310aaa4d5dd09f5cdceecfb9e40",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "dictionaries/appendage-item-common-equipment-special-effect-fields.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/dictionaries/appendage-item-common-equipment-special-effect-fields.zh-CN.md",
+      "sourceGroup": "clean-dictionaries",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 4819,
+      "sha256": "d7a4ff939f4b209fa0c6a0e3035daadcf1075006093fcb499a527ffb90967131",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "dictionaries/attackinfo-atk-fields.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/dictionaries/attackinfo-atk-fields.zh-CN.md",
+      "sourceGroup": "clean-dictionaries",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 5343,
+      "sha256": "e8dc3aba0f458a45242c6abcb95430fe5417f3b2ca4b72748a724399b814d787",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "dictionaries/attackinfo-payload-damage-element-activestatus-fields.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/dictionaries/attackinfo-payload-damage-element-activestatus-fields.zh-CN.md",
+      "sourceGroup": "clean-dictionaries",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 6412,
+      "sha256": "7b723ea3c22fac1cb3133892a0b305207ad9ed82eb12c128d352e353fb01f8f8",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "dictionaries/audio-soundpacks-music-fields.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/dictionaries/audio-soundpacks-music-fields.zh-CN.md",
+      "sourceGroup": "clean-dictionaries",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 4528,
+      "sha256": "81e1c4f3716ecac0d1c502eeda2dc7dd20b806068da355d858cc3cbf27798bc4",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "dictionaries/avatar-emblem-socket-clone-aura-fashion-package-fields.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/dictionaries/avatar-emblem-socket-clone-aura-fashion-package-fields.zh-CN.md",
+      "sourceGroup": "clean-dictionaries",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 5496,
+      "sha256": "4239bd2f59e3a9ce257293b49726316d2c4b7956aba51a60ce4a9f2ad805e9f7",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "dictionaries/character-job-growtype-class-enum-fields.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/dictionaries/character-job-growtype-class-enum-fields.zh-CN.md",
+      "sourceGroup": "clean-dictionaries",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 6524,
+      "sha256": "81f1fb78435c920961d326ca992fbd94c6f6a7b04a84211557b5069a445d4ad0",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "dictionaries/clear-reward-card-flip-independent-drop-probability-fields.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/dictionaries/clear-reward-card-flip-independent-drop-probability-fields.zh-CN.md",
+      "sourceGroup": "clean-dictionaries",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 8591,
+      "sha256": "31c9d64f8f786b84044be29b666cfa5ece7ebd7e0f87e6730e5fbb04d6bfcb06",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "dictionaries/client-assets-imagepacks-ui-fields.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/dictionaries/client-assets-imagepacks-ui-fields.zh-CN.md",
+      "sourceGroup": "clean-dictionaries",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 2733,
+      "sha256": "1fc7bd8c3a2ce4e10147e45addd148f07eb932cb27d5146e6ec068181c2628d2",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "dictionaries/client-ui-layout-pos-lay-fields.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/dictionaries/client-ui-layout-pos-lay-fields.zh-CN.md",
+      "sourceGroup": "clean-dictionaries",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 7664,
+      "sha256": "015091a4a33b440c29dd75fc5444727bb44dcab8e4eb18386f6757a3f69a8f8d",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "dictionaries/content-lifecycle-dungeon-full-lifecycle-fields.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/dictionaries/content-lifecycle-dungeon-full-lifecycle-fields.zh-CN.md",
+      "sourceGroup": "clean-dictionaries",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 6104,
+      "sha256": "0f88782b4d1dce2954311e0d577e528619f169a15b8db46169ee6cfb0932304c",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "dictionaries/creature-pet-fields.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/dictionaries/creature-pet-fields.zh-CN.md",
+      "sourceGroup": "clean-dictionaries",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 5946,
+      "sha256": "76364190ceb55ac18ace500685fda2ed14c78ead46ed1fb772507c0179c4f530",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "dictionaries/dungeon-map-spawn-entry-clear-resource-fields.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/dictionaries/dungeon-map-spawn-entry-clear-resource-fields.zh-CN.md",
+      "sourceGroup": "clean-dictionaries",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 9704,
+      "sha256": "0271c4ef3c36a5deb1678c7767a4d274ead0324a211d3c57d67f23ae9fe06e12",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "dictionaries/economy-gold-fatigue-mileage-token-counter-fields.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/dictionaries/economy-gold-fatigue-mileage-token-counter-fields.zh-CN.md",
+      "sourceGroup": "clean-dictionaries",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 8722,
+      "sha256": "6c435116603ab7d077be16dedeb42a7596bbf045f2e2c278ddfe5b425e103aeb",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "dictionaries/equipment-fields.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/dictionaries/equipment-fields.zh-CN.md",
+      "sourceGroup": "clean-dictionaries",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 7143,
+      "sha256": "d0a482aaa8a706cb69f3175e7195bd25ec83cb77d6f3484675aa5fe1b7e8ffeb",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "dictionaries/etc-event-config-fields.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/dictionaries/etc-event-config-fields.zh-CN.md",
+      "sourceGroup": "clean-dictionaries",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 7927,
+      "sha256": "f9a3dadfdc8cd94fb5325165d82232978340c4a690dabfebceb874a56e8fde30",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "dictionaries/event-reward-delivery-mail-attendance-fields.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/dictionaries/event-reward-delivery-mail-attendance-fields.zh-CN.md",
+      "sourceGroup": "clean-dictionaries",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 6359,
+      "sha256": "dfb734352f28e8b82e900c9fe885ac597a364e9cb8c2dc9d9e61cc64d67f7d17",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "dictionaries/formal-region-town-worldmap-area-entry-fields.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/dictionaries/formal-region-town-worldmap-area-entry-fields.zh-CN.md",
+      "sourceGroup": "clean-dictionaries",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 6425,
+      "sha256": "810211b632c1ccb0469e7cf64539e70dd040cd614aba47496fd756dad2055304",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "dictionaries/monster-action-animation-fields.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/dictionaries/monster-action-animation-fields.zh-CN.md",
+      "sourceGroup": "clean-dictionaries",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 3699,
+      "sha256": "4268a26ec91518acbebee11f3ccf091c709ed84b0f96feea9c93b91e385eda9c",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "dictionaries/monster-ai-action-attack-cross-layer-fields.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/dictionaries/monster-ai-action-attack-cross-layer-fields.zh-CN.md",
+      "sourceGroup": "clean-dictionaries",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 5105,
+      "sha256": "1dbf42d77311313511ea1fc5c714f7dce3b3801a410932b51147ade1d638138a",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "dictionaries/monster-ai-fields.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/dictionaries/monster-ai-fields.zh-CN.md",
+      "sourceGroup": "clean-dictionaries",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 2500,
+      "sha256": "5a8a0dbc4be2da731ae3194a3d915b02d795644fe2cd7bc8c56314fdfe7fab4f",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "dictionaries/monster-fields.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/dictionaries/monster-fields.zh-CN.md",
+      "sourceGroup": "clean-dictionaries",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 7682,
+      "sha256": "688fcbe6b94cf4e7a56eac4d7b683b643c0082bb14c2b96c8e5cbc52ab0ded6d",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "dictionaries/npc-shop-fields.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/dictionaries/npc-shop-fields.zh-CN.md",
+      "sourceGroup": "clean-dictionaries",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 5175,
+      "sha256": "24baa1828148bc5708fb99c7b741abfc04e0955e8394b0618996474baead995f",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "dictionaries/nut-runtime-api-boundary-quick.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/dictionaries/nut-runtime-api-boundary-quick.zh-CN.md",
+      "sourceGroup": "clean-dictionaries",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 2656,
+      "sha256": "0327f2405f405716324cc843b86f4a3ac131c5ca48904a29a0a50c1dc0ef1ad3",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "dictionaries/nut-runtime-api-boundary.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/dictionaries/nut-runtime-api-boundary.zh-CN.md",
+      "sourceGroup": "clean-dictionaries",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 41977,
+      "sha256": "935ad61bc3f91608f64f815bfaad8d3721edfabbe317155081cc109e6db39cc0",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "dictionaries/passiveobject-action-fields.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/dictionaries/passiveobject-action-fields.zh-CN.md",
+      "sourceGroup": "clean-dictionaries",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 12933,
+      "sha256": "fc2185b6a935c2ef235b8577c1a59b5a60ed8dcccc82d51704c41bdbe93e8774",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "dictionaries/passiveobject-obj-fields.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/dictionaries/passiveobject-obj-fields.zh-CN.md",
+      "sourceGroup": "clean-dictionaries",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 6381,
+      "sha256": "ac8bc3b291c18628b1ee36785f8e5d7ec9606d5709bfe15be3c094224a4ef242",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "dictionaries/pvf-registry-lst-topology-fields.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/dictionaries/pvf-registry-lst-topology-fields.zh-CN.md",
+      "sourceGroup": "clean-dictionaries",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 3090,
+      "sha256": "5f8f0910bc4c72faefae16661d08b65bb46e0cb4ab8e0fae31f6e879cc4e8cda",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "dictionaries/pvf-tags.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/dictionaries/pvf-tags.zh-CN.md",
+      "sourceGroup": "clean-dictionaries",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 3884,
+      "sha256": "8c715864b5877486765f084e28e183b8a7226a343e25413ea4655056a1545d0a",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "dictionaries/pvp-mission-fields.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/dictionaries/pvp-mission-fields.zh-CN.md",
+      "sourceGroup": "clean-dictionaries",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 6039,
+      "sha256": "1097d3ccd09db27c9075363a78390dd71faedd6807ac007fc4070feb0018dec6",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "dictionaries/quest-drop-reward-ticket-fields.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/dictionaries/quest-drop-reward-ticket-fields.zh-CN.md",
+      "sourceGroup": "clean-dictionaries",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 9259,
+      "sha256": "92ef47efde0820de047015166e6e2bba60bb9389785a97836907deb77c32fe94",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "dictionaries/quest-type-condition-fields.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/dictionaries/quest-type-condition-fields.zh-CN.md",
+      "sourceGroup": "clean-dictionaries",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 6695,
+      "sha256": "79da4b939681515fcc1fcd506fed0c0c09fc1ce61818bdee0cb0715abe919edb",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "dictionaries/randomoption-mystic-fields.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/dictionaries/randomoption-mystic-fields.zh-CN.md",
+      "sourceGroup": "clean-dictionaries",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 6233,
+      "sha256": "cec67d943401b0b8e933d157da0be523dab34738ab57eac9b1a15a8bc4e74174",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "dictionaries/README.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/dictionaries/README.zh-CN.md",
+      "sourceGroup": "clean-dictionaries",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 1165,
+      "sha256": "c09173bedf7c5d53a4933035ac0b994d185c6c2f33bb0a63522d2f48996efda9",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "dictionaries/serverparameter-premium-pcroom-growth-buff-fields.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/dictionaries/serverparameter-premium-pcroom-growth-buff-fields.zh-CN.md",
+      "sourceGroup": "clean-dictionaries",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 9802,
+      "sha256": "8a4d6ffb34506a93b225eba530a53372c3918cfb756b8526a246c932d3889f53",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "dictionaries/skill-learnability-command-cooldown-fields.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/dictionaries/skill-learnability-command-cooldown-fields.zh-CN.md",
+      "sourceGroup": "clean-dictionaries",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 6505,
+      "sha256": "af5a03bb36a5125c1b4ad4ca7aafff55af8b863392c061d4be30dc3fcb691474",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "dictionaries/skill-static-level-parameter-columns.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/dictionaries/skill-static-level-parameter-columns.zh-CN.md",
+      "sourceGroup": "clean-dictionaries",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 2393,
+      "sha256": "0f4ad6c1823a390fd561541a1d5858aca4fd1783eca14f7366373abd57d4fad7",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "dictionaries/stackable-container-package-fields.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/dictionaries/stackable-container-package-fields.zh-CN.md",
+      "sourceGroup": "clean-dictionaries",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 6082,
+      "sha256": "26e70ca197756ad2e067a4888800d2ed5451dea52f0adbcf12ec12f12f7d416e",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "dictionaries/stackable-fields.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/dictionaries/stackable-fields.zh-CN.md",
+      "sourceGroup": "clean-dictionaries",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 6178,
+      "sha256": "45f411f26b9cc5a816a486bc3181722b0282efacb513c4450e261d997ad38988",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "dictionaries/text-stringlink-encoding-fields.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/dictionaries/text-stringlink-encoding-fields.zh-CN.md",
+      "sourceGroup": "clean-dictionaries",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 4358,
+      "sha256": "4049990757bda045b11bc5518a692556af068d4c9c4e9c9245efe318f049329d",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "dictionaries/upgrade-reinforce-amplify-enchant-recipe-fields.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/dictionaries/upgrade-reinforce-amplify-enchant-recipe-fields.zh-CN.md",
+      "sourceGroup": "clean-dictionaries",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 6654,
+      "sha256": "ebb9ebfe137ef54ae4ba01e0acae877bc5e8e36441fe4c8acc2c8350b710cfb3",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "encyclopedia/pvf-file-types/apc-ai-key-stream.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/encyclopedia/pvf-file-types/apc-ai-key-stream.zh-CN.md",
+      "sourceGroup": "clean-encyclopedia",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 924,
+      "sha256": "1cdc7961b90fc42db449a508f4ef22498e831504be8a1d1952db50c8beddf04a",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "encyclopedia/pvf-file-types/assets-imagepacks-ui.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/encyclopedia/pvf-file-types/assets-imagepacks-ui.zh-CN.md",
+      "sourceGroup": "clean-encyclopedia",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 1173,
+      "sha256": "4b0a74d2d11d46ecfdfeb7b537cf68be974aa31045def4fbb5fcd16a6d293330",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "encyclopedia/pvf-file-types/audio-soundpacks-music.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/encyclopedia/pvf-file-types/audio-soundpacks-music.zh-CN.md",
+      "sourceGroup": "clean-encyclopedia",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 2244,
+      "sha256": "ea0db2f96b2bf57c6300d1d8883084316690d50ad115a0f0d9c2066be1cad1c0",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "encyclopedia/pvf-file-types/avatar-emblem-aura-package.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/encyclopedia/pvf-file-types/avatar-emblem-aura-package.zh-CN.md",
+      "sourceGroup": "clean-encyclopedia",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 2465,
+      "sha256": "c481ba22adea82abc6ca393b4b58065edd5266899b59d16c8edb30d8b6201490",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "encyclopedia/pvf-file-types/clearreward-independentdrop-probability.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/encyclopedia/pvf-file-types/clearreward-independentdrop-probability.zh-CN.md",
+      "sourceGroup": "clean-encyclopedia",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 3083,
+      "sha256": "7f672eaf0ed4a534407bab5416470716b58b05047c0fed47150e83b8a7d81aba",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "encyclopedia/pvf-file-types/client-ui-layout-pos-lay.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/encyclopedia/pvf-file-types/client-ui-layout-pos-lay.zh-CN.md",
+      "sourceGroup": "clean-encyclopedia",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 3297,
+      "sha256": "8bffa77200082835be473f276e50f8a5c04ecbe05b45031a4208af764575a10f",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "encyclopedia/pvf-file-types/content-lifecycle-dungeon-full-lifecycle.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/encyclopedia/pvf-file-types/content-lifecycle-dungeon-full-lifecycle.zh-CN.md",
+      "sourceGroup": "clean-encyclopedia",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 2725,
+      "sha256": "a1a934c3558c9373d95bb5bfa3acf6e2996087da921d1310161ffbac9edc2c57",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "encyclopedia/pvf-file-types/dungeon-map-worldmap.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/encyclopedia/pvf-file-types/dungeon-map-worldmap.zh-CN.md",
+      "sourceGroup": "clean-encyclopedia",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 1317,
+      "sha256": "7f7e44fb732e6c3aa2aa6bd5cfdc700cb9a8b7ce4cd24eb279fdfb9e9781ccb3",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "encyclopedia/pvf-file-types/economy-gold-fatigue-mileage-token-counter.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/encyclopedia/pvf-file-types/economy-gold-fatigue-mileage-token-counter.zh-CN.md",
+      "sourceGroup": "clean-encyclopedia",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 4883,
+      "sha256": "8856c7c879a08d00ec6a6f2f2bb11edac530fd0d4d9a51df71f6d57265f1bbbd",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "encyclopedia/pvf-file-types/equipment-stackable.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/encyclopedia/pvf-file-types/equipment-stackable.zh-CN.md",
+      "sourceGroup": "clean-encyclopedia",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 3281,
+      "sha256": "7c25e53137c8a232bd50c5416696e6c1b9258ba855efe7633c4145440b580e2f",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "encyclopedia/pvf-file-types/etc-event-config.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/encyclopedia/pvf-file-types/etc-event-config.zh-CN.md",
+      "sourceGroup": "clean-encyclopedia",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 3128,
+      "sha256": "5a1e8f668a76990f735484c1b1e53303ba1adf8019a67a3ef17bd725881bec85",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "encyclopedia/pvf-file-types/event-reward-mail-attendance.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/encyclopedia/pvf-file-types/event-reward-mail-attendance.zh-CN.md",
+      "sourceGroup": "clean-encyclopedia",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 3625,
+      "sha256": "225a2255eb928f21002c8484d610bfa4171ed5850b51d26e2074201004422c7b",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "encyclopedia/pvf-file-types/itemshop-shp.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/encyclopedia/pvf-file-types/itemshop-shp.zh-CN.md",
+      "sourceGroup": "clean-encyclopedia",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 2641,
+      "sha256": "481e76310f57db48fae07b78eb30c5c98433628b1c3e3a55507ba8fb143f4cf9",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "encyclopedia/pvf-file-types/lst-registry-topology.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/encyclopedia/pvf-file-types/lst-registry-topology.zh-CN.md",
+      "sourceGroup": "clean-encyclopedia",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 2397,
+      "sha256": "b95ee129e1fa510114eef9f87bbae150a8cdd8a57e701e62daf9e2c12ba2a957",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "encyclopedia/pvf-file-types/monster-mob.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/encyclopedia/pvf-file-types/monster-mob.zh-CN.md",
+      "sourceGroup": "clean-encyclopedia",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 2088,
+      "sha256": "0dfdfd2b93725452edecc09ec827993ee781ca4beddcdf7163239b5522076fb5",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "encyclopedia/pvf-file-types/nut-api-runtime.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/encyclopedia/pvf-file-types/nut-api-runtime.zh-CN.md",
+      "sourceGroup": "clean-encyclopedia",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 916,
+      "sha256": "362707c456e03708e2e08de34f7cb83def09878d01554780349e7be2394478aa",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "encyclopedia/pvf-file-types/passiveobject-attackinfo-hitbox.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/encyclopedia/pvf-file-types/passiveobject-attackinfo-hitbox.zh-CN.md",
+      "sourceGroup": "clean-encyclopedia",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 5051,
+      "sha256": "329202eb14740b7cb601f5ccff20eb529db7d02cea5a277f27a71471e9cc2f34",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "encyclopedia/pvf-file-types/README.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/encyclopedia/pvf-file-types/README.zh-CN.md",
+      "sourceGroup": "clean-encyclopedia",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 375,
+      "sha256": "31966c2eb53dcf6f773d4ef7fb104af1ee16f6a935f3349c8ddc1d3ebe58467d",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "encyclopedia/pvf-file-types/region-town-worldmap-area-entry.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/encyclopedia/pvf-file-types/region-town-worldmap-area-entry.zh-CN.md",
+      "sourceGroup": "clean-encyclopedia",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 2878,
+      "sha256": "21e22a1d5aa3e6f4cde8e8a8f8ad3f8cd08c8417e9c22d091a72999f65153d51",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "encyclopedia/pvf-file-types/serverparameter-premium-pcroom-growth-buff.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/encyclopedia/pvf-file-types/serverparameter-premium-pcroom-growth-buff.zh-CN.md",
+      "sourceGroup": "clean-encyclopedia",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 4071,
+      "sha256": "02cc310a1fd86ba93f00953085367fd984f23716a3f758df27b8e4d5f460b47b",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "encyclopedia/pvf-file-types/skill-skl.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/encyclopedia/pvf-file-types/skill-skl.zh-CN.md",
+      "sourceGroup": "clean-encyclopedia",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 1045,
+      "sha256": "bdd2079600dc139be921c5f8df51c3efbd845782f0c6dd27db10cc92cec5eac0",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "encyclopedia/pvf-file-types/text-stringlink-localization.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/encyclopedia/pvf-file-types/text-stringlink-localization.zh-CN.md",
+      "sourceGroup": "clean-encyclopedia",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 1788,
+      "sha256": "2740330d7546a01b226899c1c617eac8aca42b3848134fae76195a397b93617f",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "encyclopedia/pvf-file-types/upgrade-reinforce-amplify-enchant-recipe.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/encyclopedia/pvf-file-types/upgrade-reinforce-amplify-enchant-recipe.zh-CN.md",
+      "sourceGroup": "clean-encyclopedia",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 4544,
+      "sha256": "71b6d109d11083a19dfdb8804a12e71a9b776305955b6f4b13b035af24d4b099",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "encyclopedia/README.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/encyclopedia/README.zh-CN.md",
+      "sourceGroup": "clean-encyclopedia",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 1056,
+      "sha256": "e32f9cee527aaa24e4a608053072ad3a49899066ce310410b6eb7e3de9f8a908",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "EXPORT-POLICY.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/EXPORT-POLICY.zh-CN.md",
+      "sourceGroup": "clean-knowledge",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 2203,
+      "sha256": "1362a99b75c39d8a84b39567d2ff1aa033cef6b64e0eb2f7c8411943c08d2508",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "health-check/README.md",
+      "source": "${WORKBENCH_GENERATED}/health-check/README.md",
+      "sourceGroup": "clean-knowledge",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 246,
+      "sha256": "3749e22ffacab03fc454222a4e0678f41f8255e324617a2a5e900df94e3627c7",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/actionobject-mapobject-breakable-spc-boundary.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/actionobject-mapobject-breakable-spc-boundary.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 10108,
+      "sha256": "2130d82e29ded642e25763f9b51b952faf6b5616a1e4bc51cc771027e7dbb3c9",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/apc-extraction-boundary.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/apc-extraction-boundary.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 1064,
+      "sha256": "515206efc719c10a9b7486b26ac35c3355a994bc13ad5b9ecb8535ad5fd9bde5",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/appendage-item-common-equipment-special-effect-boundary.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/appendage-item-common-equipment-special-effect-boundary.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 6118,
+      "sha256": "77b1e5c4280f38bdb2eadf54456c9067d7a4a5300d362ba5e610403f6d0ab43f",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/attackinfo-atk-backtick-token-router.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/attackinfo-atk-backtick-token-router.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 2711,
+      "sha256": "4b62e4c72ccf33c7a2d7d39d41733e7c3f2f559237165b151679d07413e4d7b2",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/attackinfo-atk-observed-tag-router.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/attackinfo-atk-observed-tag-router.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 8885,
+      "sha256": "268979be1702bf005ee025fcd60197026c2a993bdfb6ea4cd9f7cab04a2d23b3",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/attackinfo-payload-damage-element-activestatus-boundary.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/attackinfo-payload-damage-element-activestatus-boundary.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 7635,
+      "sha256": "ad03a2ad0327f7f38bb13345fb5321997fb38a4a140c063f7f765c7ba78a028e",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/attackinfo-pvp-block-inventory.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/attackinfo-pvp-block-inventory.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 8376,
+      "sha256": "bc4ed79e243448121a3f591bed134bd0ea841ced484e22948899581c6e27a2fd",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/attackinfo-pvp-chain-pilot-ledger.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/attackinfo-pvp-chain-pilot-ledger.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 7696,
+      "sha256": "63025137cd55045833c9acccce76349a933c655dbcd8b366d548ed08b0ed7960",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/attackinfo-pvp-common-equipment-chain-ledger.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/attackinfo-pvp-common-equipment-chain-ledger.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 5749,
+      "sha256": "6847f7d28866cf71403fd53b83958d3355b43ee46704c3b66a07a2f8df1b24fc",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/attackinfo-pvp-fighter-chain-ledger.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/attackinfo-pvp-fighter-chain-ledger.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 3401,
+      "sha256": "be43c0aeefec47a0e8397a71b1fc381916640e93eeab72d4b93b78317f915aa9",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/attackinfo-pvp-gunner-chain-ledger.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/attackinfo-pvp-gunner-chain-ledger.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 6136,
+      "sha256": "f260998b40be4e7e00dcb097934fd9735565852f15644eb90ccbae33d81a2d39",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/attackinfo-pvp-mage-chain-ledger.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/attackinfo-pvp-mage-chain-ledger.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 3880,
+      "sha256": "3ee2beb8a3be928fd3abf9c10f6db5d8c08d250e1d29de2b43ecffae0092daae",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/attackinfo-pvp-priest-swordman-thief-chain-ledger.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/attackinfo-pvp-priest-swordman-thief-chain-ledger.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 5477,
+      "sha256": "8a6a0290eec129cefba0425536d82f24c3effa038de0af74b83f00f0007a4e23",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/attackinfo-pvp-zrr-skill-chain-ledger.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/attackinfo-pvp-zrr-skill-chain-ledger.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 5698,
+      "sha256": "3cbfc196dee55210aab5d528becf812430626aa72108ae1b91cbd71754560094",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/attackinfo-status-pvp-ledger.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/attackinfo-status-pvp-ledger.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 8619,
+      "sha256": "414b1ad2c0e78e1d222fde329d75b2bed45c9d6f7781c82b4a49561cf7e6bbbb",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/audio-soundpacks-music-boundary.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/audio-soundpacks-music-boundary.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 6781,
+      "sha256": "05e339e09711e975e3a64d91008662dc89b0b861d046fbbd798e33841af0b95b",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/audio-soundpacks-source-position-reinforcement.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/audio-soundpacks-source-position-reinforcement.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 3619,
+      "sha256": "8d41a8011f934802b1caf070b9864f11d95010d69c9f054a41ffbbde486498e8",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/avatar-aura-fields.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/avatar-aura-fields.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 4413,
+      "sha256": "e8b5b7f96df11d01591030c6bce09984c280839f1e90046cc8bfc0194b8e4032",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/avatar-emblem-socket-clone-aura-fashion-package-boundary.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/avatar-emblem-socket-clone-aura-fashion-package-boundary.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 7382,
+      "sha256": "1778e73ba47b7b0dbcb323c741a8e5f37eda92c2f93c799635703136b349b415",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/avatar-select-ability.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/avatar-select-ability.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 4183,
+      "sha256": "89a028d8e58bfa454404a6cdd26ee7b7679e37a19acd3fad63cc0eff0ac5cc72",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/avatar-type-select.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/avatar-type-select.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 3488,
+      "sha256": "1bc44525f7d6327acc81703e7c3f68474c9393c0dae9348fa86985377ad4541c",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/character-job-growtype-class-enum-boundary.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/character-job-growtype-class-enum-boundary.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 8727,
+      "sha256": "c911b2eacf35673ec3645066171a0a504ae9293c485de78d85a302462e32736a",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/clear-reward-card-flip-independent-drop-probability-boundary.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/clear-reward-card-flip-independent-drop-probability-boundary.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 11212,
+      "sha256": "899a6e44b963750f35479d0b94ab09ce4559a2501938ea13e4dc7791a17444fa",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/client-asset-path-boundary.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/client-asset-path-boundary.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 768,
+      "sha256": "6adc29d468a3a49295f2a76ee50d7612b0d1eb97fa86c052d6e83fcd90dca11e",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/client-assets-imagepacks-ui-boundary.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/client-assets-imagepacks-ui-boundary.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 4206,
+      "sha256": "1e5f3f5b2c54be26a79bbef70e0be9e1c3fac186fd5f6153dd6dfbee7379c64b",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/client-assets-source-position-reinforcement.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/client-assets-source-position-reinforcement.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 3752,
+      "sha256": "3fe641ee330469f1ad68ce132d738164cbdf2583967f1e24b43ec85b526afc3b",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/client-ui-layout-pos-lay-boundary.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/client-ui-layout-pos-lay-boundary.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 5368,
+      "sha256": "fea99908e0ccb357d8885baa4a1c2ca51de132152e78a1084c80b34c86895a9b",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/commercial-tool-capability-boundary.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/commercial-tool-capability-boundary.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 2589,
+      "sha256": "92338cd87401b37c7f05e84cd1ded61d15bcacf7913e5fcdd86818aaf9f3ede0",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/completed-mainlines-status.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/completed-mainlines-status.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 28178,
+      "sha256": "7cdb391a9e87aa195189ae1420098960fbb8a0ca72cbfe58cbcedc286a1575e7",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/content-lifecycle-dungeon-full-lifecycle-boundary.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/content-lifecycle-dungeon-full-lifecycle-boundary.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 5845,
+      "sha256": "52ead95d761da043f2a3a79c77f2e3a5313bc043796409e917aa50f4aad753a8",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/creature-pet-boundary.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/creature-pet-boundary.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 4488,
+      "sha256": "323469875cdf9bb99955069381911e35d4e893a5d5e485baa1d1ee2a5e09d741",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/creature-pet-source-position-reinforcement.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/creature-pet-source-position-reinforcement.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 3081,
+      "sha256": "1f77c26aa66a40737ab9f2c38fb22ea8959ec5badc749cfc03232c6a6b303c52",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/dungeon-extraction-boundary.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/dungeon-extraction-boundary.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 1101,
+      "sha256": "9f3efe0a38ea451192504e789537f8d8242949535e263206af4124d0c36ab237",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/dungeon-map-source-position-reinforcement.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/dungeon-map-source-position-reinforcement.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 3718,
+      "sha256": "594cf4bd74c0a9d3f26a9807f3f1fc801f82ab074d10fcda2cc0493bac14a414",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/dungeon-map-spawn-entry-clear-resource-boundary.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/dungeon-map-spawn-entry-clear-resource-boundary.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 9114,
+      "sha256": "87e6ffccb7ea44fd73f45bb8c0f8bc24e5a8a72092d7fa3bfad71b3b49042d64",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/economy-gold-fatigue-mileage-token-counter-boundary.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/economy-gold-fatigue-mileage-token-counter-boundary.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 11210,
+      "sha256": "234dd134f12437374f1e5b22cbc68f72482b42b5cb45ab416c396851a0509e9e",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/equipment-aura-data-fields.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/equipment-aura-data-fields.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 5874,
+      "sha256": "03d765eff691c50e132719d51f7864149a2b636a631059ae4fc01e7c9301f79b",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/equipment-avatar-aura-creature-extraction-boundary.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/equipment-avatar-aura-creature-extraction-boundary.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 1086,
+      "sha256": "8bf31657fc172fff356f01079c58cc13ee732c1057e6c2e12879f5784f1be14b",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/equipment-avatar-motion-fields.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/equipment-avatar-motion-fields.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 7763,
+      "sha256": "f84008c5a060c852dba2469c2a2df684de071446b95a016950366b8981469d3e",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/equipment-basic-fields.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/equipment-basic-fields.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 8224,
+      "sha256": "8e2168d85b6bc9eab14834ff30317170d61907564ddd6371bc34b53d8251c314",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/equipment-bracket-value-tokens.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/equipment-bracket-value-tokens.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 12927,
+      "sha256": "f29735caded8b1ad3fcd06bdc86cc3fedc483e0a674939a223266b337728150a",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/equipment-conditional-stat-fields.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/equipment-conditional-stat-fields.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 5532,
+      "sha256": "0afbaf3d7b8fffe8534708f1515995ebe814feb99b4bbea3b60a79aab4493adc",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/equipment-effect-fields.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/equipment-effect-fields.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 18422,
+      "sha256": "4a6b4796575402cb442b45ff1107e0f8b8d266fe2e7cb8d05997ce2d739506a4",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/equipment-hardcoded-legacy-fields.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/equipment-hardcoded-legacy-fields.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 3939,
+      "sha256": "6a55b77e6c846eb1da853dc69e77ccb6888470d1b0cadc2c7431f90db40f3a30",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/equipment-resistance-stats.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/equipment-resistance-stats.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 6423,
+      "sha256": "50fd0fa6b7f90affaaa67a6ff19cd84f7f0fd149dd2822f5fe01b32f377036a3",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/equipment-rule-fields.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/equipment-rule-fields.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 7165,
+      "sha256": "4ec607479cf31b8c0a6ba9dc18a49636629ff7e7104ad3603a63337c2140edcd",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/equipment-runtime-trigger-fields.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/equipment-runtime-trigger-fields.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 6509,
+      "sha256": "cc591660bc9b6300a79cb56d61cb3ee6bf9909443dc46b41fef3d93fec3596e8",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/equipment-upgrade-profession-fields.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/equipment-upgrade-profession-fields.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 4860,
+      "sha256": "6917b63b052437c32e3ddafec0562a0a0330cfd48f1259e11e3fea58e5c00b65",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/equipment-visual-fields.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/equipment-visual-fields.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 4152,
+      "sha256": "c9ea84b24d1c25042bd7a1568ee3e3c6f07b70f57cec02c2165f2605d8ed8eda",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/etc-event-config-activity-family-boundary.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/etc-event-config-activity-family-boundary.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 8487,
+      "sha256": "bc49568a58e8a2f1de05bfcbf6d69b46cab3ecdab94adae1927d51ff4373c8dc",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/event-reward-delivery-mail-attendance-boundary.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/event-reward-delivery-mail-attendance-boundary.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 9621,
+      "sha256": "552917cf52db364162a8d99d5dc5828add7573d36293bf88484cb77271520b10",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/extraction-capability-router.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/extraction-capability-router.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 2776,
+      "sha256": "b46be35e984aad805fe933b21597b750e9353e33db8b7547a140f022804737c7",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/formal-region-town-worldmap-area-entry-boundary.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/formal-region-town-worldmap-area-entry-boundary.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 8668,
+      "sha256": "1cfe4243ff4432c293031b85c44f906bd55f5743243d76e8c0452d00dd26ae6f",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/item-stackable-dependency-planner-boundary.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/item-stackable-dependency-planner-boundary.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 2060,
+      "sha256": "bccbc91a04019b964a2c4c43a74f6287f86f4e6da4e92c0a539903ce7c647c46",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/knowledge-index.json",
+      "source": "${WORKBENCH_GENERATED}/indexes/knowledge-index.json",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 17236,
+      "sha256": "a689afe3ba258c2e357a4df2d2970c78c0376acfe0a577111200f39c4fcb784a",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/knowledge-topic-routes.full.json",
+      "source": "${WORKBENCH_GENERATED}/indexes/knowledge-topic-routes.full.json",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 196724,
+      "sha256": "d312bf0e8ddeccb6fe865da9c4681a208f97fa0e85574eab287bc47b1a40370c",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/monster-action-animation-act-observed-tag-router.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/monster-action-animation-act-observed-tag-router.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 56277,
+      "sha256": "2979dd44f6d77b3e4dcfceecaefe98ed53a0dcc6fc93e8bd9df76b41e0106440",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/monster-action-animation-ani-observed-tag-router.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/monster-action-animation-ani-observed-tag-router.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 52316,
+      "sha256": "542f8c3df296c2fb7ec6115ffd9b72765ebb431ad964ccebab6056153f19d02e",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/monster-action-animation-backtick-token-router.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/monster-action-animation-backtick-token-router.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 1011,
+      "sha256": "f1ccf01d87b6c66b22c342a10381c62f6cdb5f4d9581b4524865ac41dd1fd45b",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/monster-ai-action-attack-cross-layer-boundary.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/monster-ai-action-attack-cross-layer-boundary.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 8496,
+      "sha256": "1e8c1edc690bf3c877666ba86d5e322b4edbc99ec19492e54173f906d7222e21",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/monster-ai-expression-router.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/monster-ai-expression-router.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 2946,
+      "sha256": "502e522cb7023fa5ecf115dd3df836375230b52fcf8e55801b3422757d821fcc",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/monster-ai-observed-tag-router.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/monster-ai-observed-tag-router.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 2920,
+      "sha256": "db0f0e5bf4efcbc057eb89ba784c6feca7322faaec11cc287b746bcb69c923e5",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/monster-backtick-token-router.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/monster-backtick-token-router.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 8215,
+      "sha256": "9cc7fe4792395c5c390bdc2c4435b7db086e127068564f4ec767f0f034eaf407",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/monster-created-passiveobject-act-observed-tag-router.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/monster-created-passiveobject-act-observed-tag-router.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 39225,
+      "sha256": "23b90779c42492f8a71a7a18a4937056b82e140fc94cb99b296fee1d796e1211",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/monster-created-passiveobject-obj-observed-tag-router.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/monster-created-passiveobject-obj-observed-tag-router.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 8794,
+      "sha256": "3a38ea08af41d3fcce09f24794ae0e309b85cab6bca9ad8646197ecccbace26b",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/monster-entry-link-router.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/monster-entry-link-router.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 7200,
+      "sha256": "db9e095da756a967e5adab7ffe638c284742d0fd2ee47a656214b6ef69c67012",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/monster-field-router-basic.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/monster-field-router-basic.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 4516,
+      "sha256": "c7e889afdaa1fc11a0f61746bc0897acdf119bd2e16e6549fffe9994582271e7",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/monster-observed-tag-router.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/monster-observed-tag-router.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 28345,
+      "sha256": "e0a093046aad5b584b589225254e10fddf1a84f0b5b065467f39938e571057c0",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/npc-shop-itemshop-exchange-price-boundary.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/npc-shop-itemshop-exchange-price-boundary.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 6076,
+      "sha256": "1ed5bb821cc619c0816afeb8b73b807347b301fa917078f0d36c8bbb7032c548",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/npc-shop-source-position-reinforcement.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/npc-shop-source-position-reinforcement.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 2084,
+      "sha256": "347f103725d39c61908bcdeb4dd532ef73fd20e6bf27e047bf27dcb863c71803",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/passiveobject-attackinfo-hitbox-acceptance-checklist.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/passiveobject-attackinfo-hitbox-acceptance-checklist.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 5845,
+      "sha256": "9cf6502d66a476424db8625ca01c4d71664a228cea020b8722eca0fccf81be6f",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/passiveobject-attackinfo-hitbox-acceptance-review-ledger.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/passiveobject-attackinfo-hitbox-acceptance-review-ledger.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 6697,
+      "sha256": "096e9ad287ef5409f76ff4a9961d6ed9bb8ba756a4a29b88372a9001326032f6",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/passiveobject-attackinfo-hitbox-compact-router.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/passiveobject-attackinfo-hitbox-compact-router.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 3402,
+      "sha256": "7db7de3b96e1102a6a85ef1fb3b9fa2002e4e1804940a141f5d5b3443ea1b5f4",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/passiveobject-attackinfo-hitbox-completion-audit.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/passiveobject-attackinfo-hitbox-completion-audit.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 5473,
+      "sha256": "dcd5a158e2c05b7fcd4854e5c9f560dc1a32ac058461161e8f2c2059c579acc5",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/passiveobject-attackinfo-hitbox-static-acceptance-report.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/passiveobject-attackinfo-hitbox-static-acceptance-report.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 5610,
+      "sha256": "59712775beb1b11837a78208286b68fa5212722e90d6f9cde6f373e691ad81da",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/passiveobject-coverage-ledger.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/passiveobject-coverage-ledger.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 157269,
+      "sha256": "acb7a39fbc6e6cee58c266d0b3e8d599ddcb83cd3f25dd263c6ec73ba12f58df",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/passiveobject-create-recursion-ledger.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/passiveobject-create-recursion-ledger.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 97710,
+      "sha256": "3f939913b52cf7c7668b29b85a993588d8deae79b4e67ff4d003e090c5cb4f9f",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/passiveobject-deep-ledger-router.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/passiveobject-deep-ledger-router.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 2471,
+      "sha256": "22912433e00e6cfa9e5979aea5cd42078fda16c5eb8c1e8e9124b4abf261f91c",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/passiveobject-hitbox-ani-sample-ledger.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/passiveobject-hitbox-ani-sample-ledger.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 146662,
+      "sha256": "cb60c1607138d67cd554c8dc7a27e934dcbe2ee3def4b16797dfd6f8408fe40f",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/passiveobject-ledger-governance.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/passiveobject-ledger-governance.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 4593,
+      "sha256": "eb7f7525b8a43332ac934ccc6910c89d63ebc46c832f2f3e036e56a524cffeeb",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/passiveobject-lifecycle-homing-ledger.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/passiveobject-lifecycle-homing-ledger.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 171902,
+      "sha256": "d5e8c6a31c21a079a3f890fa2ef61c6d3e6e44776380c3174f17732c9f92ff8b",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/passiveobject-nonmonster-sample-chain.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/passiveobject-nonmonster-sample-chain.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 49738,
+      "sha256": "3ef6dcf1335be4058e99d07eed822d033af5edbce95ba76b02ec0232dc5b068c",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/pvf-registry-lst-topology-orphan-boundary.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/pvf-registry-lst-topology-orphan-boundary.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 6709,
+      "sha256": "d82d706dc26a5158d305c003abebe0465fec14a14c65c81ac9b1010f9dbdfa05",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/pvf-tag-router-equipment-avatar-visual.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/pvf-tag-router-equipment-avatar-visual.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 14899,
+      "sha256": "3963f2aba92a46043555d778c747c013d97a86042b6a4d850982f214078a1d59",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/pvf-tag-router-equipment-basic-rules.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/pvf-tag-router-equipment-basic-rules.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 18488,
+      "sha256": "34d8bfaa5b6b43234b4a45ad3fc5805f252d1dd5a67e6a8ce304ad3f148a68e3",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/pvf-tag-router-equipment-effect.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/pvf-tag-router-equipment-effect.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 17115,
+      "sha256": "bdf30b4cb1c5a8cf19d4d43ddb8032b77f52d62d0faad615d967d343df19cc84",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/pvp-mission-msn-boundary.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/pvp-mission-msn-boundary.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 9135,
+      "sha256": "c67b63ee258848e467eeccc06a1a556f7ad33b77209241cef89cfb153cdedd2f",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/pvp-mission-source-position-reinforcement.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/pvp-mission-source-position-reinforcement.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 4042,
+      "sha256": "3a43f1025ac4894d1c8420bef38689a4aa018d305ddfbb72720e5b76d589fad9",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/quest-chain-requirement-boundary.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/quest-chain-requirement-boundary.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 6800,
+      "sha256": "276bffdbe4b15924c4cdf650e70b9fa97efc698d3822c973df679985d1f463b0",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/quest-drop-reward-source-position-reinforcement.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/quest-drop-reward-source-position-reinforcement.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 4176,
+      "sha256": "12e15906fb9c06d062fa4484f84edbcf368a2123ad25a9e0778dba08e5a706cf",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/quest-drop-reward-ticket-boundary.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/quest-drop-reward-ticket-boundary.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 9662,
+      "sha256": "cef7b30dbb0068878f97e469784723ca76f5d143190c9351920af20f29a7d227",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/quest-mainline-coverage-audit.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/quest-mainline-coverage-audit.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 4559,
+      "sha256": "35e7fecc3479a4c8634cad14d95f5b228aa35da1b3bf0a25340a2b601d420011",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/quest-type-condition-int-data-matrix.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/quest-type-condition-int-data-matrix.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 7142,
+      "sha256": "d0737edc8bbc4ae316d245a8decf9c11e9b35a9843e4f8e87f47e815f20673cc",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/randomoption-mystic-equipment-boundary.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/randomoption-mystic-equipment-boundary.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 5347,
+      "sha256": "f21ef085d92b7897131f1bdbf5ca85fbf56029450fe57590da00b574086b9a3e",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/randomoption-mystic-source-position-reinforcement.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/randomoption-mystic-source-position-reinforcement.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 4282,
+      "sha256": "0a1cc352bbab61dfde5c38a639dc4aaaef1441e674dbc023210a8ae548bb03c1",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/registry-text-source-position-reinforcement.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/registry-text-source-position-reinforcement.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 3509,
+      "sha256": "0728c15efbf052d498a210b6a13c7a03f492f7cbd2cb77d032afb1a3bbc4f6e8",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/serverparameter-premium-pcroom-growth-buff-boundary.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/serverparameter-premium-pcroom-growth-buff-boundary.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 7994,
+      "sha256": "5ff1aa16f1b08586223d4fe9ab9044a12073fb4fe929f1281fb44c5976b5bd47",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/skill-atmage-bluedragonwill-state-target-po-chain.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/skill-atmage-bluedragonwill-state-target-po-chain.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 8856,
+      "sha256": "d18e9582c39f4386570a052ed6d13fa8da0feb81fbe465841ff764b3b19e97f9",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/skill-atmage-chainlightning-state-po-chain.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/skill-atmage-chainlightning-state-po-chain.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 14529,
+      "sha256": "368f0376050779bc29233f61216b721d07f4d575170208b21bfdb8476ddb7359",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/skill-atmage-crystalattack-native-chain.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/skill-atmage-crystalattack-native-chain.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 8922,
+      "sha256": "763eca23ca0cc893af41a3651f90983bd5248e2a33554291ab942211705f8249",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/skill-atmage-darkchange-state-blind-attackinfo-chain.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/skill-atmage-darkchange-state-blind-attackinfo-chain.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 8993,
+      "sha256": "deee77d9dc38c55ac5855143430fec54c4e1bd1bd2b10b81508d3410abc581fd",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/skill-atmage-elementalchange-throw-appendage-chain.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/skill-atmage-elementalchange-throw-appendage-chain.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 10231,
+      "sha256": "147424b0cd798fcc0a8e86fc7926146fe1e1577806dfd51ae2ca020d5df23903",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/skill-atmage-fireroad-state-po-chain.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/skill-atmage-fireroad-state-po-chain.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 13076,
+      "sha256": "a586a1ab0481fca13cb22ab9206153550a59d61184c323f09e1e2f7b793e9e69",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/skill-atmage-flamecircle-state-po-appendage-chain.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/skill-atmage-flamecircle-state-po-appendage-chain.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 15062,
+      "sha256": "0a8eb92be6aae5bf4502aeabbd8798868affc1f52c5435784bfaf213bd2de5e4",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/skill-atmage-frozenland-state-po-appendage-chain.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/skill-atmage-frozenland-state-po-appendage-chain.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 12463,
+      "sha256": "3bfab21a6dddc7397f9ec00f5724c49029fda656128d33cf4595ba79502f8452",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/skill-atmage-holonglight-state-po-skillload-buff-chain.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/skill-atmage-holonglight-state-po-skillload-buff-chain.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 16151,
+      "sha256": "52e4b50319a8095a5a8657bf21076126f96a22a748389010a42f0bd92dd32a9f",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/skill-atmage-iceroad-state-appendage-disabled-po-boundary.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/skill-atmage-iceroad-state-appendage-disabled-po-boundary.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 10582,
+      "sha256": "244a34561b121d1c2ad5f4ae3228513f0cc6f8218b41e035a00ddbb80fd7dbd1",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/skill-atmage-icesword-state-attackinfo-ex-rewind-chain.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/skill-atmage-icesword-state-attackinfo-ex-rewind-chain.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 7371,
+      "sha256": "5524e32cf137b349d28f4490fb97b47154d9e2fad9bcd33c1261c61fcd1279f2",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/skill-atmage-lightningwall-state-po-appendage-chain.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/skill-atmage-lightningwall-state-po-appendage-chain.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 15346,
+      "sha256": "a2cc88cf008cb289290338d7d3725e3369d879328b44ddaee41092044b302a51",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/skill-atmage-magiccannon-state-po-chain.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/skill-atmage-magiccannon-state-po-chain.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 11402,
+      "sha256": "988afabbe97b1aaecd0ea403d4a7c1c1d2c853de166d3fce47adf473263c856b",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/skill-atmage-magicshield-buff-appendage-chain.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/skill-atmage-magicshield-buff-appendage-chain.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 11659,
+      "sha256": "d674134564bb3a21bc029ad6e7418601d8cce76a80ce348b71660b930ce14e0a",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/skill-atmage-manaburst-throw-buff-chain.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/skill-atmage-manaburst-throw-buff-chain.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 9612,
+      "sha256": "6b49f64d5f76f5a0906dffe299ea06897aa039038b1015ff5f607362495d6b1a",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/skill-atmage-pieceofice-state-core-shard-po-chain.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/skill-atmage-pieceofice-state-core-shard-po-chain.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 15708,
+      "sha256": "2e94e69e1abcbe165d4c5d8e20e5740f5cb6626ae0accf91dbc20917ed06d4b6",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/skill-atmage-teleport-movement-state-chain.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/skill-atmage-teleport-movement-state-chain.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 10253,
+      "sha256": "cf7465f7c099e973b0af1e9d8f398a6f0be261fcf35b0820dee95f11a7beb176",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/skill-atmage-watercannon-native-chain.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/skill-atmage-watercannon-native-chain.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 10059,
+      "sha256": "feec02a9525e384578af92154cb109dcfc464c346e219511c46aba0bbe1e4b56",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/skill-atmage-windstrike-native-chain.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/skill-atmage-windstrike-native-chain.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 7718,
+      "sha256": "34743b1fc2190692ea79d8a9401609469f35fddf8e75f12afc6eafce234ab47c",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/skill-avenger-cnapi-powerofdarkness-representative-chain.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/skill-avenger-cnapi-powerofdarkness-representative-chain.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 6320,
+      "sha256": "c82226503adac8a91751716e5ed0b3f89e0700e2d0f3e96c6606622b8d10138f",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/skill-avenger-cnapi-spincutter-representative-chain.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/skill-avenger-cnapi-spincutter-representative-chain.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 6608,
+      "sha256": "c32927037f36e95b1df65fdf6795c21db690910fe2d6ff944ddf3dba3af07769",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/skill-bloodyrave-bloodsword-frame-window.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/skill-bloodyrave-bloodsword-frame-window.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 4479,
+      "sha256": "12c335d8f9d8277f0ec8deb49614c1ef983195812997599ad8dba21c4a2b4c0e",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/skill-common-burster-public-loop-state-representative-chain.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/skill-common-burster-public-loop-state-representative-chain.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 5929,
+      "sha256": "000c53119f3bfca1c73b9dec2a89e5f913ebd34e33a75dcd582c1d4b83e95f05",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/skill-creatormage-hybrid-mousecontrol-representative-chain.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/skill-creatormage-hybrid-mousecontrol-representative-chain.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 7227,
+      "sha256": "f99db283cd113be49230944e0662af917a5a1cd4752063088c88eb56e180ef25",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/skill-data-up-types.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/skill-data-up-types.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 3650,
+      "sha256": "a3d17ac90e3b1eac2752cb21cb368883efa773ae74ef6a77513a0563056315be",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/skill-gunner-gatling-steyr-runtime-sample.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/skill-gunner-gatling-steyr-runtime-sample.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 2216,
+      "sha256": "6ba714d192dbf8b3c2326aa29ad40cef78cf85e59d84dcaaf1a23da129c496a5",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/skill-gunner-passive-comminterrupt-script-only-representative-chain.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/skill-gunner-passive-comminterrupt-script-only-representative-chain.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 5223,
+      "sha256": "a34d625e30d182cdddfa092f75ed973cb4300fe1f4fda32796169789663e4b38",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/skill-learnability-cost-sp-tp-ui-boundary.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/skill-learnability-cost-sp-tp-ui-boundary.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 7662,
+      "sha256": "5371464170959d5b51d9ef4f4b71708b86580e85b93db7686b038d56aa2f4be7",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/skill-learnability-source-position-reinforcement.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/skill-learnability-source-position-reinforcement.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 3270,
+      "sha256": "c0b0987b93133c0a5a8af247862ffcb2c24f0caca44fa775d84e3ebb77502cc9",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/skill-learnability-tree-command-cooldown-boundary.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/skill-learnability-tree-command-cooldown-boundary.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 7756,
+      "sha256": "0bb59c9fe3a9f6239c55b403b462d16267db7da923367f75188973be1b8de650",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/skill-learnability-tree-command-cooldown-completion-audit.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/skill-learnability-tree-command-cooldown-completion-audit.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 6919,
+      "sha256": "2798826c4c5e39260824081b3f44d03fe36d923f102aafd54fc82c1f3a3fe328",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/skill-levelup.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/skill-levelup.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 2482,
+      "sha256": "6a691258c3b04133cfa15d64a15edcac13ab21aacbe17a30733f73eb7bcec5a3",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/skill-load-state-entry-coverage.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/skill-load-state-entry-coverage.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 24122,
+      "sha256": "376f04f6c2408406e21f0dee555dfae5ca4f10d19a8eea358a5518b44763cef0",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/skill-outragebreak-state45-substate-boundary.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/skill-outragebreak-state45-substate-boundary.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 4584,
+      "sha256": "93d9bf55a39363d8771efce02f270889c0b41ed7d59621f583e715bd26836bb8",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/skill-parameter-facts.compact.json",
+      "source": "${WORKBENCH_GENERATED}/indexes/skill-parameter-facts.compact.json",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 1812967,
+      "sha256": "13a8dd4b0353494f4685612098a5cfb657ea0e91b684463612db5d0aa3bbf3fc",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/skill-parameter-index.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/skill-parameter-index.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 2675,
+      "sha256": "21f01b8cfc9a051eccc1ed5e5d42f62682cd74e81b3a7d88f56a908ef39ab4ee",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/skill-parameter-routes.json",
+      "source": "${WORKBENCH_GENERATED}/indexes/skill-parameter-routes.json",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 1732,
+      "sha256": "e41929f2187b29aefec8fa93f5e8a764288a78a4e09331bc4bfdec4e766e4074",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/skill-priest-releasebuffs-light-state-representative-chain.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/skill-priest-releasebuffs-light-state-representative-chain.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 6352,
+      "sha256": "b72c82ddbd82e4f79a749286ac08c9d170a8ed9b502fe1e256c8ac4eb6e25d4e",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/skill-registry-routing.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/skill-registry-routing.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 2153,
+      "sha256": "954b699e7e222b0f64382acc5880e30c54babc1f991a1571808309099bd25f75",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/skill-state-nut-runtime-api-group-boundary.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/skill-state-nut-runtime-api-group-boundary.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 6794,
+      "sha256": "de1f1535fd8d0d923ce299c260dbef345ac85a2db2406864dd56cd1c37b3bede",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/skill-state-nut-runtime-boundary-audit.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/skill-state-nut-runtime-boundary-audit.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 51360,
+      "sha256": "b1f9ff69368ffca90a002b93281979d6f66a1d6f40c4a696c9162a9957459b19",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/skill-state-nut-runtime-high-coverage-matrix.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/skill-state-nut-runtime-high-coverage-matrix.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 8534,
+      "sha256": "09fa75d43dad3b9a3eff97812f0ea5bf50fa84f37a4a4a5078015f0ec8f12061",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/skill-swordman-comminterrupt-lifecycle.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/skill-swordman-comminterrupt-lifecycle.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 7307,
+      "sha256": "1288fb54af2b19697dc5b17b6105bac0d26065c199a1a9b7a5511f020a30ca09",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/skill-swordman-comminterrupt-reachability.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/skill-swordman-comminterrupt-reachability.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 4734,
+      "sha256": "eea3c9e6b557923c54badb48514b0666f33f6596d3fa02f5cb5f01112e6aeaef",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/skill-tree-default-pvp-entry-boundary.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/skill-tree-default-pvp-entry-boundary.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 7875,
+      "sha256": "afebc8880a01058f9e0b79297ca1b679114f6c59576508ab1cdfcc17f3819073",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/stackable-container-package-boundary.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/stackable-container-package-boundary.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 3264,
+      "sha256": "07eab5b27fc5f67b8d618b96f194c3f873ea5146f1bb9ac5a7f1eb9b914725c8",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/stackable-container-package-source-position-reinforcement.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/stackable-container-package-source-position-reinforcement.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 2787,
+      "sha256": "a008f4dff7a67a99eff52157836b33dac792b26279a745c4091a766b48419ee5",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/stackable-package-orb-card-extraction-boundary.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/stackable-package-orb-card-extraction-boundary.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 1106,
+      "sha256": "bfe2b193ee0b3f50df2a6faac8f9073b0fc00242f44b1aedbf546ea656c5641a",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/text-stringlink-encoding-localization-boundary.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/text-stringlink-encoding-localization-boundary.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 6302,
+      "sha256": "31fd1a4d8c9f2527992f0c09e1063236505edd9a2544685d8efdaba766108171",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "indexes/upgrade-reinforce-amplify-enchant-recipe-boundary.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/indexes/upgrade-reinforce-amplify-enchant-recipe-boundary.zh-CN.md",
+      "sourceGroup": "clean-indexes",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 9177,
+      "sha256": "3e62e03b1eab9f34f2bb68ef216b8e6001083e23c9925f483cc39f35689fef10",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "README.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/README.zh-CN.md",
+      "sourceGroup": "clean-knowledge",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 2172,
+      "sha256": "24b9b2d65474349f8eedd98c4e0eaf21b8b7b1000c90f5e2badd9c9c283d37a3",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "safety/README.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/safety/README.zh-CN.md",
+      "sourceGroup": "clean-safety",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 2487,
+      "sha256": "2c3e0bfa2d39b71a22a96ab44529cc3f3a27a6ed0d992a0970ba58268d671b35",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "task-cards/actionobject-mapobject-breakable-spc-readonly-audit.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/task-cards/actionobject-mapobject-breakable-spc-readonly-audit.zh-CN.md",
+      "sourceGroup": "clean-task-cards",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 3903,
+      "sha256": "9070ddf06fde7a9c86835f835472edb5047cde3170c05eeb7d8d695bfb823ed4",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "task-cards/apc-extraction-preview.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/task-cards/apc-extraction-preview.zh-CN.md",
+      "sourceGroup": "clean-task-cards",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 1063,
+      "sha256": "943884b7d67c20df4b540be48dec12ad78c7eabd76b0f9cc032f7baec468f5be",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "task-cards/appendage-item-common-equipment-special-effect-readonly-audit.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/task-cards/appendage-item-common-equipment-special-effect-readonly-audit.zh-CN.md",
+      "sourceGroup": "clean-task-cards",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 2803,
+      "sha256": "aa300327ec8fad713c67a661bc9ee32e46440a480bee8db10ef00a1200eb8cba",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "task-cards/attackinfo-payload-damage-element-activestatus-readonly-audit.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/task-cards/attackinfo-payload-damage-element-activestatus-readonly-audit.zh-CN.md",
+      "sourceGroup": "clean-task-cards",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 3283,
+      "sha256": "dac93251fa59550291464671e54c0303d4f04c678a23e8e1e40882023ecd280c",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "task-cards/audio-soundpacks-music-readonly-audit.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/task-cards/audio-soundpacks-music-readonly-audit.zh-CN.md",
+      "sourceGroup": "clean-task-cards",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 3649,
+      "sha256": "45975b5f0d18180337d1bc3818349d319b160f57a37fb0392780baeded647c1f",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "task-cards/avatar-emblem-socket-clone-aura-fashion-package-readonly-audit.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/task-cards/avatar-emblem-socket-clone-aura-fashion-package-readonly-audit.zh-CN.md",
+      "sourceGroup": "clean-task-cards",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 4671,
+      "sha256": "104e8c63460e37d404168522e404fa53abebca1c0ab039f240bd45661533a53b",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "task-cards/character-job-growtype-class-enum-readonly-audit.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/task-cards/character-job-growtype-class-enum-readonly-audit.zh-CN.md",
+      "sourceGroup": "clean-task-cards",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 3579,
+      "sha256": "b9b42813da4405a608a7f6879fd6d081f61f3b5a545b3b8a85eaad29ebfe87d7",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "task-cards/clear-reward-card-flip-independent-drop-probability-readonly-audit.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/task-cards/clear-reward-card-flip-independent-drop-probability-readonly-audit.zh-CN.md",
+      "sourceGroup": "clean-task-cards",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 3646,
+      "sha256": "05ced0cdce1f77190fd5ceaa61ccb051ede8164b979c08426d71bcbd00b30dc0",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "task-cards/client-asset-path-preview.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/task-cards/client-asset-path-preview.zh-CN.md",
+      "sourceGroup": "clean-task-cards",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 952,
+      "sha256": "9ff1f7484088743a81d9a27fb53bfc7b50604280d5073fe28fd53305347c1d6a",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "task-cards/client-assets-imagepacks-ui-readonly-audit.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/task-cards/client-assets-imagepacks-ui-readonly-audit.zh-CN.md",
+      "sourceGroup": "clean-task-cards",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 3000,
+      "sha256": "0a2ef0d81cdd6687fb76f2a8d0122c7dce39feca80b0d5913e463328926ac96d",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "task-cards/client-ui-layout-pos-lay-readonly-audit.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/task-cards/client-ui-layout-pos-lay-readonly-audit.zh-CN.md",
+      "sourceGroup": "clean-task-cards",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 5465,
+      "sha256": "48e938df16fbc0c6ebc547128a742e728fc371a3e7622c234a91ce409fdfd74c",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "task-cards/content-lifecycle-dungeon-full-lifecycle-readonly-audit.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/task-cards/content-lifecycle-dungeon-full-lifecycle-readonly-audit.zh-CN.md",
+      "sourceGroup": "clean-task-cards",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 4207,
+      "sha256": "e867fe165bab8b68c2103a888a86ad42563a8d02fbedec88664df5cd04c25355",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "task-cards/creature-pet-readonly-audit.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/task-cards/creature-pet-readonly-audit.zh-CN.md",
+      "sourceGroup": "clean-task-cards",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 2309,
+      "sha256": "6550df817729f002f3c2fb741c000543429fa5d81eef8e5f2a0e75517854675f",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "task-cards/dungeon-extraction-preview.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/task-cards/dungeon-extraction-preview.zh-CN.md",
+      "sourceGroup": "clean-task-cards",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 861,
+      "sha256": "09d391c821a1f8a6bf7b451ffa20498d151cb7eb9d7a9f368dddfb0b5323e942",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "task-cards/dungeon-map-spawn-entry-clear-resource-readonly-audit.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/task-cards/dungeon-map-spawn-entry-clear-resource-readonly-audit.zh-CN.md",
+      "sourceGroup": "clean-task-cards",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 2725,
+      "sha256": "a3b5a54eab7862c95dc7a2295b309b31cc2156ce50a271a2d514f8df474e0bf9",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "task-cards/economy-gold-fatigue-mileage-token-counter-readonly-audit.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/task-cards/economy-gold-fatigue-mileage-token-counter-readonly-audit.zh-CN.md",
+      "sourceGroup": "clean-task-cards",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 5044,
+      "sha256": "cdcd56981f54848439136c991c8c119d484099545bb01a01167ae4c2267dabe7",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "task-cards/equipment-avatar-aura-creature-extraction-preview.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/task-cards/equipment-avatar-aura-creature-extraction-preview.zh-CN.md",
+      "sourceGroup": "clean-task-cards",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 1636,
+      "sha256": "82cce69af4104dc2025bcce7a0c08acbcbe8e431f3b8ce7dc05740fd32d951ef",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "task-cards/equipment-stackable-controlled-change.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/task-cards/equipment-stackable-controlled-change.zh-CN.md",
+      "sourceGroup": "clean-task-cards",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 1244,
+      "sha256": "a369e37fc5b3cda58151a66f9e04a1311380cd2c58f2c3dfe47703e7a64f8277",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "task-cards/equipment-stackable-readonly-audit.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/task-cards/equipment-stackable-readonly-audit.zh-CN.md",
+      "sourceGroup": "clean-task-cards",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 2734,
+      "sha256": "bd3466374e3be15a1ed44b97a2c078e76be9ccfd03c71696876e65f8aa914018",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "task-cards/etc-event-config-readonly-audit.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/task-cards/etc-event-config-readonly-audit.zh-CN.md",
+      "sourceGroup": "clean-task-cards",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 3294,
+      "sha256": "2acd2f0f7554d907a0a9556259067257269d1b15cfb0ef18886f0de48465beea",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "task-cards/event-reward-delivery-mail-attendance-readonly-audit.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/task-cards/event-reward-delivery-mail-attendance-readonly-audit.zh-CN.md",
+      "sourceGroup": "clean-task-cards",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 4368,
+      "sha256": "b63afa19421da46248e4ca1a1fb213a46bb69f9e830b8a7abc485ca4c30e59a9",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "task-cards/formal-region-town-worldmap-area-entry-readonly-audit.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/task-cards/formal-region-town-worldmap-area-entry-readonly-audit.zh-CN.md",
+      "sourceGroup": "clean-task-cards",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 3298,
+      "sha256": "ec17512e30caf54f74258a22c791cf8a98954be28f4a710cec58800652f22b4e",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "task-cards/monster-action-animation-readonly-audit.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/task-cards/monster-action-animation-readonly-audit.zh-CN.md",
+      "sourceGroup": "clean-task-cards",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 1888,
+      "sha256": "11e4209a1105fec07b5ab66b99a0b178d1f8cfa025122bf0f484bc31299f2b82",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "task-cards/monster-ai-action-attack-cross-layer-readonly-audit.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/task-cards/monster-ai-action-attack-cross-layer-readonly-audit.zh-CN.md",
+      "sourceGroup": "clean-task-cards",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 3611,
+      "sha256": "c2c7311327c80d9066da4eb09e6bd485af4c771788e0fe774564acf4128e8a9f",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "task-cards/monster-ai-summon-spawn-drop-readonly-audit.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/task-cards/monster-ai-summon-spawn-drop-readonly-audit.zh-CN.md",
+      "sourceGroup": "clean-task-cards",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 1960,
+      "sha256": "e1312e757bf987e83244bb476264943a02f65f0257d1d784dfbca0019524ada9",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "task-cards/monster-attackinfo-atk-readonly-audit.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/task-cards/monster-attackinfo-atk-readonly-audit.zh-CN.md",
+      "sourceGroup": "clean-task-cards",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 1403,
+      "sha256": "bedd829b40c6c2b6ad8dee61a82a97f6b9b8026a373097ba9e0fa5360615951d",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "task-cards/monster-created-passiveobject-readonly-audit.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/task-cards/monster-created-passiveobject-readonly-audit.zh-CN.md",
+      "sourceGroup": "clean-task-cards",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 2067,
+      "sha256": "bc5a78e1ad52b2fde01fb2a99b5dd0e433f662a7bb3b776ce79a5b954994fbd8",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "task-cards/monster-mob-readonly-audit.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/task-cards/monster-mob-readonly-audit.zh-CN.md",
+      "sourceGroup": "clean-task-cards",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 2258,
+      "sha256": "37016a7edde8c3bc1f8e4632c46378b26759d792cc076571a9525caaea4503d2",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "task-cards/npc-shop-controlled-change.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/task-cards/npc-shop-controlled-change.zh-CN.md",
+      "sourceGroup": "clean-task-cards",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 1146,
+      "sha256": "0dc47b2e67ba57f6d7c8483e896768b140c1d136efc172a7e6b43850223e0823",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "task-cards/npc-shop-readonly-audit.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/task-cards/npc-shop-readonly-audit.zh-CN.md",
+      "sourceGroup": "clean-task-cards",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 1930,
+      "sha256": "5f3ff1bc9725e63cc47851287fc93fd308a7b4383e168ef101ed76c9f44c91a3",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "task-cards/passiveobject-nonmonster-readonly-audit.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/task-cards/passiveobject-nonmonster-readonly-audit.zh-CN.md",
+      "sourceGroup": "clean-task-cards",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 7541,
+      "sha256": "d9128e795a82a44ae6074f034896a116e7dffa2db1857fbbbc1aebcb2dc3d38a",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "task-cards/pvf-registry-lst-topology-readonly-audit.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/task-cards/pvf-registry-lst-topology-readonly-audit.zh-CN.md",
+      "sourceGroup": "clean-task-cards",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 2522,
+      "sha256": "1895186fd6e35043668fce1f2fe5a6c1ce58508083b15e31f622ab6cf31fd206",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "task-cards/pvp-mission-readonly-audit.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/task-cards/pvp-mission-readonly-audit.zh-CN.md",
+      "sourceGroup": "clean-task-cards",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 2636,
+      "sha256": "b38db3b37c8a428bb0ce3e9ee2ccc9a6aa6aada658f406e7bbf3eb019f0d32bb",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "task-cards/quest-drop-reward-ticket-readonly-audit.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/task-cards/quest-drop-reward-ticket-readonly-audit.zh-CN.md",
+      "sourceGroup": "clean-task-cards",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 3110,
+      "sha256": "854ddd1a772bf526ad98ee1ffb52abd5f6448fd3c1d2df68561858fdb024e1e6",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "task-cards/randomoption-mystic-readonly-audit.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/task-cards/randomoption-mystic-readonly-audit.zh-CN.md",
+      "sourceGroup": "clean-task-cards",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 2519,
+      "sha256": "bd9e35498bd49819c2abacbb7939258c6dd41d13427a0ce7de71b48722febab5",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "task-cards/README.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/task-cards/README.zh-CN.md",
+      "sourceGroup": "clean-task-cards",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 1000,
+      "sha256": "bb337d8dbd07fc11d4fdef1a257fc2019477f8ac6450869f73689d2f9e54a2b6",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "task-cards/runtime-pass-absorption-checklist.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/task-cards/runtime-pass-absorption-checklist.zh-CN.md",
+      "sourceGroup": "clean-task-cards",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 1104,
+      "sha256": "7778ea354e9942f68dcebf11d2f42ed298058c7ace1ac3009044964d61266bfb",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "task-cards/serverparameter-premium-pcroom-growth-buff-readonly-audit.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/task-cards/serverparameter-premium-pcroom-growth-buff-readonly-audit.zh-CN.md",
+      "sourceGroup": "clean-task-cards",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 4377,
+      "sha256": "f4ca5fb46597987fa91509a7331ddebf729ba63e7614a8e2a79762fad5d4aa3b",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "task-cards/skill-learnability-tree-command-cooldown-readonly-audit.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/task-cards/skill-learnability-tree-command-cooldown-readonly-audit.zh-CN.md",
+      "sourceGroup": "clean-task-cards",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 3756,
+      "sha256": "da8c07abe130be34afe9a087c5f964f58c5a531907a16376646db18a4b927a8e",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "task-cards/skill-parameter-current-value-readonly-query.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/task-cards/skill-parameter-current-value-readonly-query.zh-CN.md",
+      "sourceGroup": "clean-task-cards",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 2013,
+      "sha256": "7ef1d62cf30bf1c16ccf1df90befaf3c45e164110161c070b2499ae4d0a5d185",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "task-cards/skill-state-nut-runtime-readonly-audit.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/task-cards/skill-state-nut-runtime-readonly-audit.zh-CN.md",
+      "sourceGroup": "clean-task-cards",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 4778,
+      "sha256": "ddc5dff3de939e6de4d864c3de1eb31e29a3fb2efdc75ef260ff92b4a4154314",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "task-cards/stackable-container-package-readonly-audit.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/task-cards/stackable-container-package-readonly-audit.zh-CN.md",
+      "sourceGroup": "clean-task-cards",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 2543,
+      "sha256": "ac6b623f853468492e10b3a90f48c487667e0049e5da883fd4c15b50ebcc4ddf",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "task-cards/stackable-package-orb-card-extraction-preview.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/task-cards/stackable-package-orb-card-extraction-preview.zh-CN.md",
+      "sourceGroup": "clean-task-cards",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 1799,
+      "sha256": "99b0c43deb0d6585a5812dad9c45ace002b22767dd26be472486c3e225d82c60",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "task-cards/text-stringlink-encoding-readonly-audit.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/task-cards/text-stringlink-encoding-readonly-audit.zh-CN.md",
+      "sourceGroup": "clean-task-cards",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 2947,
+      "sha256": "db7c9630d502dc06a78806da7b4daf45dbcde1cc61d1c39801398fc3009e3c32",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "task-cards/upgrade-reinforce-amplify-enchant-recipe-readonly-audit.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/task-cards/upgrade-reinforce-amplify-enchant-recipe-readonly-audit.zh-CN.md",
+      "sourceGroup": "clean-task-cards",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 5882,
+      "sha256": "ebc5113b2bee098af357a1b950f34ef3cc79e3102f0e6204d81ff8a247f7cb13",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "workflows/apc-extraction-planner.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/workflows/apc-extraction-planner.zh-CN.md",
+      "sourceGroup": "clean-workflows",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 2855,
+      "sha256": "9c77810b7653be863ea02f61bbbb5068cb9d0221be8f4c55e03e834319beb002",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "workflows/client-asset-path-preview.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/workflows/client-asset-path-preview.zh-CN.md",
+      "sourceGroup": "clean-workflows",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 1833,
+      "sha256": "5d9d1aaa13c5687aa9671da820f3258951b06c58df56ebdfc3060555ffab2bf4",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "workflows/dungeon-extraction-planner.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/workflows/dungeon-extraction-planner.zh-CN.md",
+      "sourceGroup": "clean-workflows",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 2889,
+      "sha256": "4702824fd195f99b9843132fce5b5f5dafb32535951085606cf0bcf780842285",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "workflows/equipment-avatar-aura-creature-extraction-planner.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/workflows/equipment-avatar-aura-creature-extraction-planner.zh-CN.md",
+      "sourceGroup": "clean-workflows",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 3256,
+      "sha256": "ec038176fc8ac128863005df901061e60f93a8e0902989875ab80f5189f89070",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "workflows/item-stackable-dependency-planner.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/workflows/item-stackable-dependency-planner.zh-CN.md",
+      "sourceGroup": "clean-workflows",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 2390,
+      "sha256": "da4035fb04703189ca8536ac0539743b43e42a9c016b2d711b4b4d7558a7d4f2",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "workflows/npc-shop-edit.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/workflows/npc-shop-edit.zh-CN.md",
+      "sourceGroup": "clean-workflows",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 2706,
+      "sha256": "92c0666bdb03be13025cd3443325892b1a275420202b13245bd5fb641e70d57d",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "workflows/quest-drop-reward-ticket-edit.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/workflows/quest-drop-reward-ticket-edit.zh-CN.md",
+      "sourceGroup": "clean-workflows",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 4215,
+      "sha256": "4f74e08861bd2425c9cba7548890faf9d441bd309c9212ef8ac95b329f3959b7",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "workflows/README.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/workflows/README.zh-CN.md",
+      "sourceGroup": "clean-workflows",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 1425,
+      "sha256": "a7019f2ead9392fb07c71cb646c7c407e4bfce899311676e3a2484778af5b576",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "workflows/runtime-validation-absorption.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/workflows/runtime-validation-absorption.zh-CN.md",
+      "sourceGroup": "clean-workflows",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 1801,
+      "sha256": "14754539cb0e615757b9f98a1e8dc0b8cc8c47518794d8eed4ee9149f1fc62f9",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "workflows/skill-derivative-and-cancel.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/workflows/skill-derivative-and-cancel.zh-CN.md",
+      "sourceGroup": "clean-workflows",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 1438,
+      "sha256": "bd4e0347a56ef46b6ab2c048a8fcc53fe33d79776bc646d285184d5d6304e643",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "workflows/skill-runtime-parameter-edit.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/workflows/skill-runtime-parameter-edit.zh-CN.md",
+      "sourceGroup": "clean-workflows",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 2278,
+      "sha256": "9a6ec7c0ccfd4324cca90d284970405493fc722118ffc45cce888d78f423b294",
+      "pathReferenceCount": 0
+    },
+    {
+      "dest": "workflows/stackable-package-orb-card-extraction-planner.zh-CN.md",
+      "source": "${WORKBENCH_GENERATED}/workflows/stackable-package-orb-card-extraction-planner.zh-CN.md",
+      "sourceGroup": "clean-workflows",
+      "evidenceLevel": "clean-knowledge",
+      "bytes": 3496,
+      "sha256": "305bab005acce4f649fe13afc462b24f4986d139e3d89f7f5b5e09afc3a5e188",
+      "pathReferenceCount": 0
+    }
+  ],
+  "summary": {
+    "entryCount": 273,
+    "totalBytes": 4338430,
+    "pathReferenceFileCount": 0,
+    "pathReferenceCount": 0,
+    "forbiddenArtifactCount": 0,
+    "rawMaterialsCopied": false,
+    "pvfCopied": false,
+    "clientCopied": false,
+    "cleanWorkbenchOnly": true
+  }
+}

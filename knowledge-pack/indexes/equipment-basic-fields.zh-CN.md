@@ -1,0 +1,107 @@
+# Equipment Basic Fields 索引
+
+## 用途
+
+本索引用于承接 equipment `.equ` 中基础显示、品质交易、经济字段、核心数值、元素与常规资源引用字段。它只记录目标 PVF 可观察到的字段边界和最低核查要求，不授权直接写 PVF。
+
+## 总规则
+
+- 本索引字段默认状态均为 `需验证`，除 NPC 商店兑换链路中的 `[need material]`，以及当前主目标已实机采样的装备 `[minimum level]` / `[usable job]` 穿戴限制边界。
+- 文本字段只证明 PVF 内存在说明文字，不证明真实运行效果。
+- 数值字段可出现在根级，也可出现在 `[set ability]`、`[piece set ability]` 等能力块中；同名字段必须按所在块解释。
+- 资源路径只证明 PVF 有引用，不证明客户端 `ImagePacks2` / NPK 资源完整。
+- 反引号 token 的精确拼写、大小写和空格见 `indexes/equipment-bracket-value-tokens.zh-CN.md`。
+
+## 显示文本
+
+| 字段 | 目标形态 | 读取边界 |
+| --- | --- | --- |
+| `[name]` | 文本 | 装备名字；编码和客户端显示需另验。 |
+| `[name2]` | 文本 | 装备别名或第二名称；若内容本身带方括号，只按显示文本读取。 |
+| `[basic explain]` | 文本 | 装备基础描述；说明文字不证明效果生效。 |
+| `[detail explain]` | 文本 | 装备详细描述；不能从描述反推机制。 |
+| `[explain]` | 文本 | 装备蓝字或说明段；只作文本线索。 |
+| `[flavor text]` | 文本 | 装备或道具底部风味文本。 |
+
+## 品质、交易与经济
+
+| 字段 | 目标形态 | 读取边界 |
+| --- | --- | --- |
+| `[grade]` | 单数值 | 装备掉落等级或成长上下文等级；不等同于穿戴等级。 |
+| `[rarity]` | 单数值 | 稀有度候选；颜色和最终名称需目标客户端确认。 |
+| `[attach type]` | 单个反引号 token | 交易、绑定或附着类型；目标值见 bracket token 索引。 |
+| `[minimum level]` | 单数值 | 装备穿戴最低等级；当前主目标样本已证明会阻止低等级角色穿戴，但不外推到所有装备或满足等级后的正向穿戴。 |
+| `[usable job]` | 闭合 token 列表 | 可用职业或公共范围；当前主目标样本已证明会阻止非目标职业穿戴。必须读取 `[/usable job]`，职业 token 见 bracket token 索引。 |
+| `[need material]` | ID 与数量组合 | NPC 商店兑换链路中可默认作为入口；材料 ID 仍需走对应 registry。 |
+| `[medal]` | 单数值 | NPC 商店装备兑换链路的奖章或货币需求线索。 |
+| `[cash]` | 单数值 | 点券或 cash 价格线索；最终购买行为受服务端和商店链路影响。 |
+| `[price]` | 单数值 | 金币或商店价格线索；按所在链路解释。 |
+| `[repair price]` | 单数值 | 修理价格线索；实际修理规则需游戏内确认。 |
+| `[value]` | 单数值 | 装备基础价值或售卖价值线索。 |
+| `[creation rate]` | 单数值 | 掉落或产出概率线索；不能直接作为掉落修改依据。 |
+
+## 核心战斗数值
+
+| 字段 | 目标形态 | 读取边界 |
+| --- | --- | --- |
+| `[physical attack]` | 单数值 | 资料解释指向力量增加；不要按字段名误写成物理攻击力。 |
+| `[magical attack]` | 单数值 | 资料解释指向智力增加；不要按字段名误写成魔法攻击力。 |
+| `[physical defense]` | 单数值 | 资料解释指向体力增加；实际面板需实机确认。 |
+| `[magical defense]` | 单数值 | 资料解释指向精神增加；实际面板需实机确认。 |
+| `[equipment physical attack]` | 一到多列数值 | 装备物理攻击；常见为最大值和最小值，不要压成单值。 |
+| `[equipment magical attack]` | 一到多列数值 | 装备魔法攻击；常见为最大值和最小值。 |
+| `[equipment physical defense]` | 一到多列数值 | 装备物理防御力；实际面板需实机确认。 |
+| `[equipment magical defense]` | 一到多列数值 | 装备魔法防御力；实际面板需实机确认。 |
+| `[separate attack]` | 一到多列数值 | 独立攻击线索；实际伤害影响需实机确认。 |
+| `[anti evil]` | 单数值 | 抗魔值线索；显示位置和门槛行为需目标客户端或实机确认。 |
+| `[HP MAX]` | 单数值 | HP 最大值增加；大小写必须原样保留。 |
+| `[MP MAX]` | 单数值 | MP 最大值增加；大小写必须原样保留。 |
+| `[HP regen speed]` | 单数值 | HP 回复速度线索；时间单位和面板换算未定性。 |
+| `[MP regen speed]` | 单数值 | MP 回复速度线索；可出现在主段或能力块中。 |
+| `[inventory limit]` | 单数值 | 背包负重上限增加线索；不要和装备自身 `[weight]` 混用。 |
+
+## 元素、速度与常规属性
+
+| 字段 | 目标形态 | 读取边界 |
+| --- | --- | --- |
+| `[all elemental attack]` | 单数值 | 全属性强化线索；按所在根级或能力块解释。 |
+| `[all elemental resistance]` | 单数值 | 全元素抗性线索；不同于异常状态抗性。 |
+| `[fire attack]` / `[water attack]` / `[dark attack]` / `[light attack]` | 单数值 | 单元素强化线索；数值单位和显示换算需实机确认。 |
+| `[fire resistance]` / `[water resistance]` / `[dark resistance]` / `[light resistance]` | 单数值 | 单元素抗性线索；不要和 `[freeze resistance]` 等异常抗性混用。 |
+| `[elemental property]` | 反引号元素 token | 元素赋予或元素属性枚举；token 见 bracket token 索引。 |
+| `[attack speed]` | 单数值 | 攻击速度线索；单位和客户端显示需实机确认。 |
+| `[move speed]` | 单数值 | 移动速度线索；可出现在不同块中。 |
+| `[cast speed]` | 单数值 | 施放速度线索；不要和触发条件 `[casting]` 混用。 |
+| `[physical critical hit]` | 单数值 | 物理暴击率线索；补充字段见抗性与补充属性索引。 |
+| `[magical critical hit]` | 单数值 | 魔法暴击率线索；补充字段见抗性与补充属性索引。 |
+| `[stuck]` | 单数值 | 命中或未命中相关线索；精确面板名需客户端确认。 |
+| `[stuck resistance]` | 单数值 | 回避率相关线索；不要和 `[stuck]` 合并。 |
+| `[hit recovery]` | 单数值 | 硬直或受击恢复线索；实际表现需实机确认。 |
+| `[jump power]` | 单数值 | 跳跃力线索。 |
+| `[durability]` | 单数值 | 装备耐久线索；损耗规则需实机确认。 |
+| `[possible kiri protect]` | 单数值 | 强化保护或相关标记；具体保护行为需专项验证。 |
+| `[weight]` | 单数值 | 装备重量；不要和 `[inventory limit]` 混用。 |
+
+## 图标、类型与基础外观
+
+| 字段 | 目标形态 | 读取边界 |
+| --- | --- | --- |
+| `[icon]` | 资源路径与索引 | UI 图标引用；PVF 引用不证明客户端资源存在。 |
+| `[field image]` | 资源路径与索引 | 掉落地面图标引用；客户端资源需另查。 |
+| `[icon mark]` | 资源路径与索引 | 图标角标或标记引用；不保证目标客户端显示。 |
+| `[equipment type]` | token 与数值列 | 装备类型、avatar 部位或外观部位；token 见 bracket token 索引。 |
+| `[sub type]` | 单数值或类型值 | 子类型；必须按同类装备样本确认。 |
+| `[item group name]` | 文本 | 分组名字；只说明分类或资源组织。 |
+| `[move wav]` | 声音名或 token | 移动物品声音；属于客户端资源边界。 |
+| `[animation job]` | token | 动画适用职业或动作分组；外观资源另验。 |
+| `[variation]` | 单数值 | 贴图编号；常与图层和 ani script 成组读取。 |
+| `[layer variation]` | 单数值 | 图层贴图编号；同一装备内可多次出现。 |
+| `[equipment ani script]` | 路径或脚本名 | 装备动画脚本引用；不证明客户端资源完整。 |
+
+## 最低验证清单
+
+1. 写入前重新读取目标 PVF 中的同类文件样本。
+2. 数字 ID 只按字段上下文选择 registry，不从列位置硬猜。
+3. 同名字段若位于套装、触发或 avatar 块内，优先按父块专题索引解释。
+4. 涉及图标、声音、`.ani` 或外观脚本时，另走客户端资源完整性检查。
+5. 文本、说明和资源引用都不能单独证明实际游戏效果。
