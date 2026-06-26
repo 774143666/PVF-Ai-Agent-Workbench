@@ -1,0 +1,27 @@
+{
+  "name": "local-test-example",
+  "enabled": false,
+  "workspace": "D:\\MyDNFWork",
+  "sourcePvf": "D:\\MyDNFWork\\Script.pvf",
+  "materials": "D:\\MyDNFWork\\high-value-materials",
+  "client": "D:\\MyDNFWork\\client",
+  "output": "D:\\MyDNFWork\\pvf-lab",
+  "pvfEncoding": {
+    "open": "Tw",
+    "readWrite": "Cn"
+  },
+  "safety": {
+    "defaultMode": "read-only",
+    "writeMode": {
+      "enabled": false,
+      "requiresTargetPvfConfirmation": true,
+      "requiresTimestampedBackup": true,
+      "requiresExplicitOutputPath": true,
+      "requiresReadback": true
+    },
+    "clientWrite": {
+      "enabled": false,
+      "requiresSeparateAuthorization": true
+    }
+  }
+}

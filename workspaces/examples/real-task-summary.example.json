@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "1.0",
+  "taskId": "example-real-task",
+  "generatedAt": "YYYY-MM-DD",
+  "mode": "read-only",
+  "sourcePvfWrite": false,
+  "clientResourceWrite": false,
+  "profiles": [
+    {
+      "name": "example-profile",
+      "sourcePvf": "D:\\MyDNFWork\\Script.pvf",
+      "role": "primary-target"
+    }
+  ],
+  "inputs": {
+    "workflows": [
+      "knowledge-pack/workflows/dnf-pvf-xpilot/game-data-edit-recipes.zh-CN.md"
+    ],
+    "fieldDictionaries": [],
+    "validatedCapabilities": []
+  },
+  "baselineChecks": [
+    {
+      "command": "workbench.bat doctor check --profile example-profile --scope itemshop",
+      "reportPath": "<external-runtime-root>/doctor-runs/<timestamp>/WORKBENCH-DOCTOR-REPORT.json",
+      "ok": true
+    }
+  ],
+  "sourcePvfInitial": [
+    {
+      "path": "D:\\MyDNFWork\\Script.pvf",
+      "size": 0,
+      "mtimeUtc": "YYYY-MM-DDTHH:mm:ss.0000000Z"
+    }
+  ],
+  "closures": [
+    {
+      "name": "example closure",
+      "steps": [
+        {
+          "kind": "resolve-lst",
+          "profile": "example-profile",
+          "registry": "itemshop/itemshop.lst",
+          "id": 37,
+          "resolvedPath": "itemshop/birken.shp",
+          "ok": true
+        },
+        {
+          "kind": "readback",
+          "profile": "example-profile",
+          "pvfPath": "itemshop/birken.shp",
+          "ok": true,
+          "summary": "Short structured readback summary."
+        }
+      ]
+    }
+  ],
+  "write": {
+    "authorized": false,
+    "changeSet": null,
+    "dryRunManifest": null,
+    "backup": null,
+    "outputPvf": null,
+    "readbackOk": null,
+    "sourceOverwritten": false,
+    "clientResourceWrite": false
+  },
+  "sourcePvfFinal": [
+    {
+      "path": "D:\\MyDNFWork\\Script.pvf",
+      "size": 0,
+      "mtimeUtc": "YYYY-MM-DDTHH:mm:ss.0000000Z",
+      "unchanged": true
+    }
+  ],
+  "findings": [
+    {
+      "statement": "Only facts proven by target PVF readback belong here.",
+      "evidence": [
+        "resolve-lst:itemshop/itemshop.lst:37",
+        "readback:itemshop/birken.shp"
+      ],
+      "recommendedLevel": "target-readonly"
+    }
+  ],
+  "limitations": [
+    "Indexes are acceleration evidence only.",
+    "No client ImagePacks2 or NPK validation was performed.",
+    "No in-game validation was performed."
+  ],
+  "knowledgeAbsorption": [
+    {
+      "finding": "Example finding",
+      "recommendedLevel": "evidence-only",
+      "targetPath": null,
+      "reason": "Example only; not a validated production rule."
+    }
+  ]
+}

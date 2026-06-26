@@ -1,0 +1,30 @@
+{
+  "$schema": "../../core/pvf-agent-core/schemas/pvf-change-set.schema.json",
+  "schemaVersion": "1.0",
+  "mode": "dry-run-only",
+  "description": "Disabled example: exact text replacement dry-run only.",
+  "target": {
+    "profile": "local-test-example",
+    "sourcePvf": "D:\\MyDNFWork\\Script.pvf",
+    "pvfOpenEncoding": "Tw",
+    "pvfReadEncoding": "Cn"
+  },
+  "changes": [
+    {
+      "id": "example-replace-text",
+      "type": "replace-text",
+      "pvfPath": "itemshop/itemshop.lst",
+      "previousText": "37\t`birken.shp`",
+      "newText": "37\t`birken.shp`",
+      "replaceAll": false,
+      "pvfEncoding": "Cn",
+      "rationale": "Example only. This replacement is intentionally a no-op."
+    }
+  ],
+  "safety": {
+    "writeModeEnabled": false,
+    "requiresBackupBeforeApply": true,
+    "requiresExplicitOutputPath": true,
+    "requiresReadback": true
+  }
+}
