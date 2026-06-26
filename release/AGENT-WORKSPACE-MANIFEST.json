@@ -7,6 +7,8 @@
   "includes": [
     ".gitattributes",
     "AGENTS.md",
+    "LICENSE",
+    "LICENSE-KNOWLEDGE-CC0.md",
     "README.md",
     "README.zh-CN.md",
     "VERSION",

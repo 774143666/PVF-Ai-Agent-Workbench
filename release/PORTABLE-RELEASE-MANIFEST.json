@@ -11,6 +11,8 @@
       ".gitignore",
       ".gitattributes",
       "VERSION",
+      "LICENSE",
+      "LICENSE-KNOWLEDGE-CC0.md",
       "CHANGELOG.zh-CN.md",
       "AGENTS.md",
       ".agents/",
