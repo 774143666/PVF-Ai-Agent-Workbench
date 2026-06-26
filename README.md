@@ -14,8 +14,6 @@
 
 ### 第二步：接入便宜好用的国产模型 API （以Deepseek+OpenCode为例）
 
-**——注意！看不懂可以去看“模型接入与工作区指定教程.docx”的图文教程——**
-
 1. 打开并登陆Deepseek开发平台：[DeepSeek](https://platform.deepseek.com/usage)
   
 2. 打开“用量信息”页面
@@ -36,8 +34,6 @@
   
 
 ### 第三步：为 Ai Agent 指定工作区（以OpenCode为例）
-
-**——注意！看不懂可以去看“模型接入与工作区指定教程.docx”的图文教程——**
 
 1. 点击软件左侧边栏的加号打开项目（或使用快捷键 Ctrl + O ）
   
