@@ -4,20 +4,19 @@
 
 把 Codex、Claude Code、OpenCode、Trae 等 AI 工具的工作区指向这个文件夹，它就能按这里的资料和规则帮你分析 PVF 怎么改、该看哪些文件、哪些地方容易出错。
 
-你可以一句话让 Ai Agent 修改任意内容；也可以只将其当做老师的角色，问询修改方法，然后利用 pvfUtility 之类的成熟修改工具自助修改
+你可以一句话让 Ai Agent 修改任意内容；也可以只将其当做老师的角色，问询修改方法，然后利用 pvfUtility 之类的成熟修改工具自主修改
 
 ## 下载使用
 
 点 GitHub 页面右侧的 **Releases**，下载最新版的 **Source code (zip)**。
 
-解压后，用你的 AI Agent 工具打开 `PVF-Agent-Workbench` 文件夹，然后先把这段话发给 AI：
+解压后，用你的 AI Agent 工具打开 `PVF-Agent-Workbench` 文件夹，然后将这段话发给 AI：
 
 ```text
 请先只读 AGENTS.md、knowledge-pack/README.zh-CN.md、knowledge-pack/safety/README.zh-CN.md 和 knowledge-pack/indexes/knowledge-index.json。
-读完后告诉我这个工作台怎么用，以及我需要提供哪些信息。
 ```
 
-接着告诉它：
+之后，Ai会向你提问：
 
 - 你的 `Script.pvf` 在哪里
 - 你想改什么，例如任务、商店、装备、技能、掉落、礼包、宠物或副本
